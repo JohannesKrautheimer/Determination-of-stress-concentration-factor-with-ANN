@@ -1,0 +1,1 @@
+# Determination-of-stress-concentration-factor-with-ANN
