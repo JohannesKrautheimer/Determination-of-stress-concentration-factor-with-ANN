@@ -1,0 +1,20 @@
+[
+    {
+        "radius": 1.0,
+        "thickness": 10.0,
+        "throat": 5.0,
+        "alpha": 120.0
+    },
+    {
+        "radius": 2.0,
+        "thickness": 10.0,
+        "throat": 6.0,
+        "alpha": 135.0
+    },
+    {
+        "radius": 2.0,
+        "thickness": 10.0,
+        "throat": 6.0,
+        "alpha": 150.0
+    }
+]

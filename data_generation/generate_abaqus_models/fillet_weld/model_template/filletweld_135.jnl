@@ -1,0 +1,30 @@
+# Save by aydogan on 2023_06_27-16.50.24; build 2022 2021_09_15-19.57.30 176069
+from abaqus import *
+upgradeMdb(
+    'C:/Users/aydogan/Desktop/20230627_jun_abaqus_filletweld/filletweld_135-2021.cae'
+    , 
+    'C:/Users/aydogan/Desktop/20230627_jun_abaqus_filletweld/filletweld_135.cae')
+# Save by aydogan on 2023_06_27-16.50.24; build 2022 2021_09_15-19.57.30 176069
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].Part(name='fillet_weld-failed', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'])
+mdb.models['Model-1'].parts['fillet_weld-failed'].Unlock(reportWarnings=False)
+del mdb.models['Model-1'].parts['fillet_weld']
+mdb.models['Model-1'].parts.changeKey(fromName='fillet_weld-failed', toName=
+    'fillet_weld')
+mdb.models['Model-1'].rootAssembly.regenerate()
+#* FeatureError: The assembly is locked and cannot be regenerated.
+mdb.models['Model-1'].rootAssembly.unlock()
+# Save by aydogan on 2023_06_27-16.50.39; build 2022 2021_09_15-19.57.30 176069

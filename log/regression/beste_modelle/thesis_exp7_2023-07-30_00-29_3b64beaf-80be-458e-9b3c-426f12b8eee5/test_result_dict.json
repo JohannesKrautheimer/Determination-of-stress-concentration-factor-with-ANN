@@ -1,0 +1,2034 @@
+{
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/019b78ef0215894c763c01e84998f5f9.asc": {
+        "pred": 1.2614192962646484,
+        "target": 1.2481021881103516
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8d88870cefa4031edac12bd31208e23d.asc": {
+        "pred": 1.9210786819458008,
+        "target": 1.9105463027954102
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/22cef12fc5fd7c01adea629136bdf671.asc": {
+        "pred": 1.6135940551757812,
+        "target": 1.5381134748458862
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cf7cb059e82eabd0ce0862e72c0af2d1.asc": {
+        "pred": 2.0707602500915527,
+        "target": 2.045286178588867
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/93ee828bb8c051b0ccc0abb6d7cba25d.asc": {
+        "pred": 1.4488515853881836,
+        "target": 1.4929633140563965
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f8a2ea0108e05efe8ba75a5942076137.asc": {
+        "pred": 1.5392835140228271,
+        "target": 1.5878225564956665
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2ce9a09b71858e15fb0e9d674fe231e4.asc": {
+        "pred": 1.6881952285766602,
+        "target": 1.6375679969787598
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e3146c26af57f558993856e52106d0af.asc": {
+        "pred": 2.8774027824401855,
+        "target": 2.869157314300537
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3b21ee73b534c5fda7eaf93691a08402.asc": {
+        "pred": 1.7170183658599854,
+        "target": 1.6328284740447998
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c6803fa92acb8bf562798c1d871cc83c.asc": {
+        "pred": 1.670600175857544,
+        "target": 1.380000114440918
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6da86209b11a35753673ddd586864a46.asc": {
+        "pred": 1.3793727159500122,
+        "target": 1.3874342441558838
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/62ad0abcdea6f3f34c872f29b2db39fa.asc": {
+        "pred": 2.0169382095336914,
+        "target": 2.04366135597229
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a3c8c9f470be7caabf3f3b33cd60d2db.asc": {
+        "pred": 2.878891706466675,
+        "target": 2.8345704078674316
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/eb8c36c851669da05642efa9257c75a9.asc": {
+        "pred": 2.697572708129883,
+        "target": 2.857750415802002
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0e769dd0e586d84e0f5e6bdc7a551818.asc": {
+        "pred": 1.9508497714996338,
+        "target": 1.9506937265396118
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8877d96bb3f26271cc0495eb814907c0.asc": {
+        "pred": 1.5776665210723877,
+        "target": 1.5130906105041504
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6a26ca10f2853d1db29ae20bee583a16.asc": {
+        "pred": 1.7043331861495972,
+        "target": 1.6559648513793945
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ee1e59347a7e1dfb56a413a297ee05ae.asc": {
+        "pred": 1.8032420873641968,
+        "target": 1.8275892734527588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/dd2bb90f2c1ffde0a7a571f1234b7e81.asc": {
+        "pred": 1.9525861740112305,
+        "target": 1.9281599521636963
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fdd5019df468e000bc01c1b3bfacf4a7.asc": {
+        "pred": 1.5054903030395508,
+        "target": 1.4980026483535767
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3247266dc75b96c05889f6ef4fe23cb9.asc": {
+        "pred": 1.2544772624969482,
+        "target": 1.2605279684066772
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/db4f44323c3d421b2df6a75eda46fc74.asc": {
+        "pred": 1.4520283937454224,
+        "target": 1.4494481086730957
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c84bdf7bb35b92e0b82c8acafc317aef.asc": {
+        "pred": 1.553846001625061,
+        "target": 1.558682918548584
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fddc3ecb4896fac15997b067cb794d79.asc": {
+        "pred": 2.0105769634246826,
+        "target": 2.071173667907715
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/10ab10a3e5a15eef8ca5c4e0edf97d1e.asc": {
+        "pred": 2.079335927963257,
+        "target": 2.122838020324707
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/97871eed91d6d030ba75aa0165752e4f.asc": {
+        "pred": 1.2214258909225464,
+        "target": 1.177335500717163
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3315893accbe8c54c8fc861573df4cb6.asc": {
+        "pred": 1.887665033340454,
+        "target": 1.8869209289550781
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6f9130574f9cf1d9e02982d3a482c9ac.asc": {
+        "pred": 1.7450389862060547,
+        "target": 1.7745954990386963
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7f955866d164d94fd62e228af63155d2.asc": {
+        "pred": 1.2971981763839722,
+        "target": 1.2738573551177979
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/204773020cf310fdb516deeee4c7293d.asc": {
+        "pred": 1.4225742816925049,
+        "target": 1.4057509899139404
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7bcbf14c05af2629a54fbd4dd9151c75.asc": {
+        "pred": 1.2930657863616943,
+        "target": 1.2638576030731201
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1354028572e2244788a261143e8bd458.asc": {
+        "pred": 2.0723373889923096,
+        "target": 2.012815237045288
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8dcbb13cf7216ba9a1fa0e51fa6022d1.asc": {
+        "pred": 1.8424534797668457,
+        "target": 1.7876509428024292
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/115cee60ebdc3a78acf08565b86117b7.asc": {
+        "pred": 1.2402067184448242,
+        "target": 1.25838303565979
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4fdc4b6bb05527946a825e9a77fab769.asc": {
+        "pred": 2.5185930728912354,
+        "target": 2.623255729675293
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8de345ba8ed40504e333a838217e5b97.asc": {
+        "pred": 1.7496564388275146,
+        "target": 1.780378818511963
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e600beb758c4c88d44e74fe8ba33d38f.asc": {
+        "pred": 2.0313987731933594,
+        "target": 1.9769010543823242
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/62e6e9b499e7312fc11d2f8ae0cd8eb8.asc": {
+        "pred": 1.9457613229751587,
+        "target": 1.920651912689209
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/829c1c6381017249b96b777fe3af11c7.asc": {
+        "pred": 1.3607213497161865,
+        "target": 1.3649122714996338
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2fc553cdd042261ee9681d839b0dc412.asc": {
+        "pred": 1.644728422164917,
+        "target": 1.5926132202148438
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fd6c88b20ae8ba37233d6c01a23a61a2.asc": {
+        "pred": 2.4440228939056396,
+        "target": 2.389031410217285
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b817c2e5694687db46878f1240468a91.asc": {
+        "pred": 1.5036197900772095,
+        "target": 1.5000889301300049
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/be64f7d34e4dba1b299cd87dd0c44a52.asc": {
+        "pred": 1.779137134552002,
+        "target": 1.7875432968139648
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/479036e74785343e6ae64e4b52858f75.asc": {
+        "pred": 1.2348371744155884,
+        "target": 1.2692413330078125
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/827a924d393b4438cd7c6dd5d442ae8f.asc": {
+        "pred": 1.312195062637329,
+        "target": 1.3018362522125244
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9ada9d5ceab5130a36fe9d1d073f27a3.asc": {
+        "pred": 1.3205556869506836,
+        "target": 1.2877955436706543
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1072f8ce45ea70939cc22eaf0ebf5b1b.asc": {
+        "pred": 2.2312324047088623,
+        "target": 2.1929562091827393
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/095e35e4f913c7b5dcb957c349657c1f.asc": {
+        "pred": 1.8448035717010498,
+        "target": 1.849810004234314
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/eb241a760a61dc7899bd4a258cb4ea43.asc": {
+        "pred": 1.4507074356079102,
+        "target": 1.3878107070922852
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e6da34d18779ebc29134a78e59454b2d.asc": {
+        "pred": 2.4868874549865723,
+        "target": 2.4469895362854004
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/91914a4948fdccef854282882764b307.asc": {
+        "pred": 1.5765697956085205,
+        "target": 1.4809253215789795
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2ce23d2692e2def9224ceb1beece3dc1.asc": {
+        "pred": 1.424721121788025,
+        "target": 1.385411024093628
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5a0e1828987f3fef4f3b14c51572e38e.asc": {
+        "pred": 1.2545101642608643,
+        "target": 1.2227215766906738
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2bf0db3269780f468575d05515d330c0.asc": {
+        "pred": 1.7331899404525757,
+        "target": 1.727236032485962
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0bfbeb0f7d09c2f4ab18cc6d66da2eea.asc": {
+        "pred": 1.767742395401001,
+        "target": 1.8150169849395752
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e446adbbadb7374ff9c308daa1d45a49.asc": {
+        "pred": 1.3570542335510254,
+        "target": 1.3507847785949707
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/64c754f49fda67a911d467551bd32d61.asc": {
+        "pred": 1.9590933322906494,
+        "target": 1.9431744813919067
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1c1825f6e6cb1a17acfa1b7254cb7ea5.asc": {
+        "pred": 1.856037974357605,
+        "target": 1.840720772743225
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/39bee0a28f931970cdac7b59a54c96c0.asc": {
+        "pred": 1.3977665901184082,
+        "target": 1.376124620437622
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c1101a26f38b8edc314b38e52f739751.asc": {
+        "pred": 1.6614904403686523,
+        "target": 1.6505446434020996
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b990f0217b95a69799c4e22cc72846a5.asc": {
+        "pred": 1.3618438243865967,
+        "target": 1.3954910039901733
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/55aac2479de1db6392e11e545928e722.asc": {
+        "pred": 1.2459731101989746,
+        "target": 1.2709234952926636
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/69df8120647451e8444402b1df67a103.asc": {
+        "pred": 1.632049322128296,
+        "target": 1.638623833656311
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d1c08b28509bbd2f85dc7c5789e56c48.asc": {
+        "pred": 1.5513606071472168,
+        "target": 1.5680046081542969
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/76add2f751dbb45ab4c9524f45d26728.asc": {
+        "pred": 1.4800444841384888,
+        "target": 1.484306812286377
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b8d41d773a9b8659185732e005634994.asc": {
+        "pred": 2.0647947788238525,
+        "target": 2.1321558952331543
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/922b034aaf83cfb2289b02669965aa52.asc": {
+        "pred": 1.420963168144226,
+        "target": 1.4312890768051147
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6e8aacdd5ceccb9ef15476814c43b8d5.asc": {
+        "pred": 1.244490146636963,
+        "target": 1.2686036825180054
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/609a35e6a0b3c08cba431a00c0e88e5a.asc": {
+        "pred": 1.5356018543243408,
+        "target": 1.4231520891189575
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3942ab89a4d7ffd15e40ed32384f2b8a.asc": {
+        "pred": 1.4143426418304443,
+        "target": 1.2936005592346191
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d71868e5da946c92de5191707986987b.asc": {
+        "pred": 1.4979544878005981,
+        "target": 1.5021356344223022
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4cef06776b9af94a3824ecf14193bb4d.asc": {
+        "pred": 1.3190569877624512,
+        "target": 1.2674145698547363
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5f8923856085cd93d7b4c4fda0ba81f0.asc": {
+        "pred": 1.802292823791504,
+        "target": 1.7299330234527588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7ee94967087bd39fa1983020aaa5a976.asc": {
+        "pred": 1.6308085918426514,
+        "target": 1.5456160306930542
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e96be6336660dcdee5b9726462a48fb3.asc": {
+        "pred": 1.232456088066101,
+        "target": 1.228898286819458
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/dcc4536c077a3d99813c021bc5ce9009.asc": {
+        "pred": 1.775724172592163,
+        "target": 1.7565513849258423
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/316914d48c6fa4708dbcd945bf9d5933.asc": {
+        "pred": 1.2979793548583984,
+        "target": 1.3102481365203857
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d21bb9219032938622ebc7fe935049c3.asc": {
+        "pred": 1.1773672103881836,
+        "target": 1.1658046245574951
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b8f759dd031217cddef2a85358eb9276.asc": {
+        "pred": 2.228513240814209,
+        "target": 2.187264919281006
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/430bb59e1104e6db1f7aed4241c41a5a.asc": {
+        "pred": 1.1980202198028564,
+        "target": 1.1952290534973145
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/adaf2a927351cdd1e9626becebf2d845.asc": {
+        "pred": 1.8002779483795166,
+        "target": 1.784306287765503
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6ce5f602252004721597269430c5fb52.asc": {
+        "pred": 1.4495325088500977,
+        "target": 1.4280979633331299
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/65a26180d224540e484849078100d70d.asc": {
+        "pred": 1.4252530336380005,
+        "target": 1.4320015907287598
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ad0fdc406d44e89ff2f4120601bd92b3.asc": {
+        "pred": 2.4718503952026367,
+        "target": 2.4255151748657227
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6fe763480035f5e03b2358a08df881d0.asc": {
+        "pred": 1.4262275695800781,
+        "target": 1.3453664779663086
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d40e57011601b8a9678817d3e9444ca5.asc": {
+        "pred": 1.1409432888031006,
+        "target": 1.1370245218276978
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/00338d562bacf1d28db1311060438e14.asc": {
+        "pred": 1.8143842220306396,
+        "target": 1.7815124988555908
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cc3bb86d7a5e7d9af06befefacf62025.asc": {
+        "pred": 1.5312342643737793,
+        "target": 1.4974887371063232
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6529410008c365e9737de56ef07a237c.asc": {
+        "pred": 2.6388967037200928,
+        "target": 2.8151001930236816
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b72379ff6151d1c552d431ccfefbc5a4.asc": {
+        "pred": 2.912269115447998,
+        "target": 2.7335593700408936
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ea651cf4d28aed2295d930b1a4752ec1.asc": {
+        "pred": 2.825850009918213,
+        "target": 2.858994960784912
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/57cf10935165c9cc056dd49eba8d19b7.asc": {
+        "pred": 2.276031017303467,
+        "target": 2.2200398445129395
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c29916258fe42709e84da780e46ef273.asc": {
+        "pred": 2.649285316467285,
+        "target": 2.761282444000244
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8ddd4d2e7c00bf39b72d7be9c75339cb.asc": {
+        "pred": 1.994196891784668,
+        "target": 1.9883511066436768
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e9eff19f85634a4e801e64da07b83e7c.asc": {
+        "pred": 1.7489795684814453,
+        "target": 1.7240945100784302
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e4c250e3253807be93c2a9a4e2e0e784.asc": {
+        "pred": 1.7255531549453735,
+        "target": 1.7243962287902832
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8a7f4de3d4ab929dd258c7f9670d0d5f.asc": {
+        "pred": 1.4832390546798706,
+        "target": 1.4808714389801025
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cb1d674d0479383e051c991e994e8ca8.asc": {
+        "pred": 2.531970977783203,
+        "target": 2.5269699096679688
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/89c4bf54d560e8d0bf1d0b64fd81dc66.asc": {
+        "pred": 2.0826449394226074,
+        "target": 2.0299272537231445
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e43dd2b316d1bb4f87ae7fb1022afd91.asc": {
+        "pred": 2.1539876461029053,
+        "target": 2.0923123359680176
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/85ae825689b34ce6ecc46c945cc6bc62.asc": {
+        "pred": 1.3445558547973633,
+        "target": 1.3064645528793335
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/66dc38aefc65ee37585841ff1ee451a6.asc": {
+        "pred": 1.6001698970794678,
+        "target": 1.5276224613189697
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/98f2ebf93fc635deb0f3b91d66bb174e.asc": {
+        "pred": 2.0733706951141357,
+        "target": 2.049868106842041
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6885e3d0caac2203b9edcbbef0d74adf.asc": {
+        "pred": 1.4478340148925781,
+        "target": 1.4055423736572266
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1b4b3192592561bebdd25a4cd7ee3ef9.asc": {
+        "pred": 1.6902716159820557,
+        "target": 1.6523423194885254
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/45a20a524984e9262e189abfaee6994e.asc": {
+        "pred": 1.276505708694458,
+        "target": 1.2671291828155518
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9af00740394e82ad322d52c4dd83c6a4.asc": {
+        "pred": 1.6472644805908203,
+        "target": 1.639516830444336
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/768c374fdf78198e351f55377e89d523.asc": {
+        "pred": 1.6678303480148315,
+        "target": 1.6868910789489746
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0d9ef2ed0c27eea22140c1761df6d19d.asc": {
+        "pred": 1.1827960014343262,
+        "target": 1.2023454904556274
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d528ff40daa89b3f66cb2c952f722fff.asc": {
+        "pred": 1.8992698192596436,
+        "target": 2.0081353187561035
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/13da080d4cc988e6ae18655780a5b44f.asc": {
+        "pred": 1.3367812633514404,
+        "target": 1.3062852621078491
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/02003662075af6fc674dafb1c0f17e8f.asc": {
+        "pred": 1.3582003116607666,
+        "target": 1.3499592542648315
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7f8a78d3b49c4521634be9f506f9c792.asc": {
+        "pred": 2.492886781692505,
+        "target": 2.3948404788970947
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4f4c2841b252d1964f8fedbacb99fdba.asc": {
+        "pred": 1.439652442932129,
+        "target": 1.4579956531524658
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/936ee724c50bc33c9dcf381f240313a0.asc": {
+        "pred": 1.4365289211273193,
+        "target": 1.372628092765808
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3553befbd9edf4abe01dad1bc2b2c14f.asc": {
+        "pred": 1.6477482318878174,
+        "target": 1.593359112739563
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3abe003000787d61e91692ad29eafee3.asc": {
+        "pred": 2.0751590728759766,
+        "target": 2.117180824279785
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bc245dc92b535b5f53394da4a59fbed2.asc": {
+        "pred": 1.7923145294189453,
+        "target": 1.8501827716827393
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4a8f48a6320128cb764f0c7d43c01d16.asc": {
+        "pred": 1.331510066986084,
+        "target": 1.3432745933532715
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0d1fc528e034950f712cd6822413eb8f.asc": {
+        "pred": 2.365478277206421,
+        "target": 2.2763402462005615
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8eb7e60f15c1fdbed57fbe7223c738fb.asc": {
+        "pred": 1.2350857257843018,
+        "target": 1.2237986326217651
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3139f891ebebb6f6a8c269aa0d1db642.asc": {
+        "pred": 2.709217071533203,
+        "target": 2.6974148750305176
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c7ad1f92d8b9c8e244e6713c154e0742.asc": {
+        "pred": 1.6928863525390625,
+        "target": 1.6934213638305664
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/63d7e21ba069d4823aa6ead439cfd937.asc": {
+        "pred": 1.4239842891693115,
+        "target": 1.3973288536071777
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6cb1ed4f69b73606b27baaa3b825aaac.asc": {
+        "pred": 1.2047092914581299,
+        "target": 1.1940215826034546
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/057b857e83c771a01a3520bdc8f6f575.asc": {
+        "pred": 1.133613109588623,
+        "target": 1.1329679489135742
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3c5ced320f9588bf79e238cbb1c16894.asc": {
+        "pred": 1.324275255203247,
+        "target": 1.2748663425445557
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9ec43a5cd09cceb94c55f212c3012184.asc": {
+        "pred": 1.6061089038848877,
+        "target": 1.5983458757400513
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/58d3c8ea622e2d1f73d814c1a9a19b8b.asc": {
+        "pred": 2.446471691131592,
+        "target": 2.4231104850769043
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5d3d005ee9e842ee4448e02ca34dac8a.asc": {
+        "pred": 1.364283561706543,
+        "target": 1.3278322219848633
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8c26d914d42e4ed3e000b82f6ed98732.asc": {
+        "pred": 1.7601451873779297,
+        "target": 1.7799084186553955
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/452ebf410bbdfe5740d47be29587cb9a.asc": {
+        "pred": 1.8249455690383911,
+        "target": 1.8046375513076782
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/535b1ead6531ebcb5399242def68fdf8.asc": {
+        "pred": 1.4235188961029053,
+        "target": 1.3507227897644043
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e92b6793ba30e364f97f88d788a9ff49.asc": {
+        "pred": 2.535404682159424,
+        "target": 2.6036794185638428
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/88758ccbd4b09eb059ade99ab6de72dc.asc": {
+        "pred": 2.5617568492889404,
+        "target": 2.5332038402557373
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3adbfdd9035a40350fd60c317ee5edd8.asc": {
+        "pred": 2.2413644790649414,
+        "target": 2.1911165714263916
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5e0fb5b91ceb639440c51c324de2b943.asc": {
+        "pred": 2.0534374713897705,
+        "target": 2.1355857849121094
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/00fe8b392c66d29c9f5f23cba9b7058c.asc": {
+        "pred": 2.3356575965881348,
+        "target": 2.3150463104248047
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e886d34e143ce4b0fe0fa9e0f3d84e7e.asc": {
+        "pred": 1.2305430173873901,
+        "target": 1.2030402421951294
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/120d803cdc805ea20e2df5c851b164fd.asc": {
+        "pred": 2.0757386684417725,
+        "target": 2.0451579093933105
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9549c07deafce3cbdc2d989bcfb076f5.asc": {
+        "pred": 1.7255018949508667,
+        "target": 1.6411371231079102
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0ecde9e73960f316984ea1d1a79d7cde.asc": {
+        "pred": 2.035876750946045,
+        "target": 2.061781406402588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6b45f44fb9b7c6fc375c35b0288290cc.asc": {
+        "pred": 1.5670557022094727,
+        "target": 1.5076656341552734
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d127dbe0ea29aeb0341b161db7a6794d.asc": {
+        "pred": 1.6870568990707397,
+        "target": 1.6586263179779053
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1411935986a6146a9376046bb59e13ee.asc": {
+        "pred": 1.3048408031463623,
+        "target": 1.2946537733078003
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2d6c1d2bd1811da98b48d9fc7e093248.asc": {
+        "pred": 2.4876813888549805,
+        "target": 2.489609956741333
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f17afeeb790d1094dbccd3fe67a3062d.asc": {
+        "pred": 3.0098299980163574,
+        "target": 3.073115110397339
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/90b832cbe8b344c4f7e31e92ea942f78.asc": {
+        "pred": 1.4413719177246094,
+        "target": 1.3748726844787598
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b214264b13bc19213248a02ac2903204.asc": {
+        "pred": 1.7116389274597168,
+        "target": 1.7032060623168945
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/39d4ecced5c967b02fed7006fd96b5cc.asc": {
+        "pred": 2.8311638832092285,
+        "target": 2.965864658355713
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6555ef28bc35dbb63b3826d53c396a0c.asc": {
+        "pred": 2.3445966243743896,
+        "target": 2.3222999572753906
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/162bc43d1f19ccf1d1bd78f7474fb601.asc": {
+        "pred": 1.21107816696167,
+        "target": 1.1902967691421509
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8faa277e7d4310ceffac977b4679be50.asc": {
+        "pred": 2.073690414428711,
+        "target": 2.1108899116516113
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/96f849e806d84704926bd55c94665ef0.asc": {
+        "pred": 1.5133188962936401,
+        "target": 1.501495599746704
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/599e2c2be2f67f25618ac43e8df45261.asc": {
+        "pred": 2.2874274253845215,
+        "target": 2.290593147277832
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3f83dc4d677bafe74c2c23f49e7ef1b9.asc": {
+        "pred": 2.220895528793335,
+        "target": 2.195706844329834
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/07059be87d8e19e373345764df9dfb2a.asc": {
+        "pred": 1.9896323680877686,
+        "target": 1.920710802078247
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6483d23ba5431ad7d4d3e8e633c0410d.asc": {
+        "pred": 1.9114251136779785,
+        "target": 1.9082995653152466
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/19e23194163cfa79b9b242af1ea1aadd.asc": {
+        "pred": 1.4156230688095093,
+        "target": 1.3057392835617065
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4033c36372471a4fcfd5a68491f59cf8.asc": {
+        "pred": 1.3928664922714233,
+        "target": 1.3804773092269897
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ff4ade70e78d97ab1478fa641ba47419.asc": {
+        "pred": 1.8456984758377075,
+        "target": 1.7823566198349
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d922e125408ca833a484f9d8b459ca8d.asc": {
+        "pred": 1.6126151084899902,
+        "target": 1.6447570323944092
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/08886d7d32412df7ab3a39b891619020.asc": {
+        "pred": 2.228633403778076,
+        "target": 2.229959726333618
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e9175276618fc8484485d2feda59a8ed.asc": {
+        "pred": 1.460071086883545,
+        "target": 1.399048089981079
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c08f1f16515b8a7aa011429223603c84.asc": {
+        "pred": 2.615825653076172,
+        "target": 2.5785436630249023
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f42c947945910e7ec750dc8edd693106.asc": {
+        "pred": 1.937762975692749,
+        "target": 1.905271053314209
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f16d4790dbc0dc7d7f9dbf6f97022c98.asc": {
+        "pred": 1.4689362049102783,
+        "target": 1.449026346206665
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/954a7caaaae5c737c9a16cb74a8ac321.asc": {
+        "pred": 2.1206929683685303,
+        "target": 2.116858959197998
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9cefafa3ef8eca91533142aae27ef5fa.asc": {
+        "pred": 1.3866231441497803,
+        "target": 1.3508163690567017
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9278bcd1bf5d376812b8e12344a61832.asc": {
+        "pred": 1.5371123552322388,
+        "target": 1.5232025384902954
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cf009a30a71ef104265c30b6eb42ee65.asc": {
+        "pred": 2.10915470123291,
+        "target": 2.049114227294922
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0ceecd02fce18e9d5887aa006bf39093.asc": {
+        "pred": 2.980097770690918,
+        "target": 2.964385986328125
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/08d3eaf93a8577d873a17cf27d6b1f8e.asc": {
+        "pred": 1.923637866973877,
+        "target": 1.8838845491409302
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b102bb7e13713893ee8b224eda91fde8.asc": {
+        "pred": 1.7140368223190308,
+        "target": 1.5727481842041016
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/23f09cccc179da1adf211ca8bebdca9d.asc": {
+        "pred": 1.4331390857696533,
+        "target": 1.462425947189331
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8b3247ad443c9bdd6ee3cc2340a8f436.asc": {
+        "pred": 2.294764518737793,
+        "target": 2.2818288803100586
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b9a0cd3b3bf8b646c41e05d44d9bade2.asc": {
+        "pred": 1.8563076257705688,
+        "target": 1.838409662246704
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8c81b5caaf71fc6c42f1006cf71ebbe0.asc": {
+        "pred": 1.3896564245224,
+        "target": 1.3503297567367554
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/493dacc67deb62a9bb745dd2aa280a16.asc": {
+        "pred": 1.8210012912750244,
+        "target": 1.8213772773742676
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/64625dab8cb3a4b0c3e91822054d545f.asc": {
+        "pred": 1.724735140800476,
+        "target": 1.6759817600250244
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bf72b429d1d0b091c9df7149f1907188.asc": {
+        "pred": 1.6030023097991943,
+        "target": 1.5952739715576172
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9467594d618fea29d13ea1e3441b7c49.asc": {
+        "pred": 1.7310056686401367,
+        "target": 1.646019458770752
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7e1d0190c95cb6f963aac38f74b6021a.asc": {
+        "pred": 1.6405200958251953,
+        "target": 1.5427219867706299
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6c437c3c94c6f68865bcc2e23a508b70.asc": {
+        "pred": 2.50640869140625,
+        "target": 2.590195655822754
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e008cdf177a9859a301367b5ad3a8011.asc": {
+        "pred": 1.6280360221862793,
+        "target": 1.6251399517059326
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/038cab75412df5cd874317caa714eba9.asc": {
+        "pred": 1.9848206043243408,
+        "target": 1.9395842552185059
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9acfefc592c2ed71d29eab3832ff75e1.asc": {
+        "pred": 1.5517514944076538,
+        "target": 1.5025975704193115
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/516ce7aea043defb516d196e8754e120.asc": {
+        "pred": 2.494652271270752,
+        "target": 2.419631004333496
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2ba8058688a52d5c819521272bdcae7f.asc": {
+        "pred": 1.7915596961975098,
+        "target": 1.7895296812057495
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a5e0efb587c84be28bd6b5171c1e8cce.asc": {
+        "pred": 2.013558864593506,
+        "target": 1.9917221069335938
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/521b80101f97dd5f098370a0367a078d.asc": {
+        "pred": 2.433074474334717,
+        "target": 2.3734664916992188
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e4269577919ec84c5663d1ab5448c9b9.asc": {
+        "pred": 1.4242877960205078,
+        "target": 1.349007248878479
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c4c9cbcd4743905b5c5b45b5c732e041.asc": {
+        "pred": 1.3384132385253906,
+        "target": 1.2581257820129395
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/42f34c072d17b64c602d40b0ca9fa6e1.asc": {
+        "pred": 1.4167420864105225,
+        "target": 1.4151291847229004
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0948d45e4e507d1dd1542a4c673e6b21.asc": {
+        "pred": 2.6744894981384277,
+        "target": 2.6072425842285156
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7812d710bd2b3dbf8d4bbadbf8c578d7.asc": {
+        "pred": 1.529041051864624,
+        "target": 1.5165414810180664
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/39d17b331eff3ceef2081a020c8b219d.asc": {
+        "pred": 1.5307118892669678,
+        "target": 1.5602245330810547
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/634fbc65802b864e5c1e7f4197cd08ca.asc": {
+        "pred": 2.4180822372436523,
+        "target": 2.3183908462524414
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/10b711af6eb7371244d760c1bf20777d.asc": {
+        "pred": 1.9135576486587524,
+        "target": 1.9142979383468628
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9c1cbfb67826c27210df3c8b3737363f.asc": {
+        "pred": 2.495021343231201,
+        "target": 2.555098056793213
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/40da4a5e7095d1fc4cfb579d80054f99.asc": {
+        "pred": 1.7749383449554443,
+        "target": 1.7517476081848145
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3e03e670e0d5209d73d8f700cdfe03c8.asc": {
+        "pred": 1.3811216354370117,
+        "target": 1.3494917154312134
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6b4fe231069a1b68bd6edf73e7df7051.asc": {
+        "pred": 1.5811972618103027,
+        "target": 1.516233205795288
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c507deb650e7e9f4cc1539fd1077bc66.asc": {
+        "pred": 1.3263089656829834,
+        "target": 1.3189759254455566
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c730d3d05d602bce29ff9385fa974e6a.asc": {
+        "pred": 2.597177505493164,
+        "target": 2.607191562652588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/96d448dcfb35a366d00feaa35e775f33.asc": {
+        "pred": 2.123539686203003,
+        "target": 2.1494903564453125
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ddd8114c860041d80da4887d3725c75c.asc": {
+        "pred": 1.2521820068359375,
+        "target": 1.2222504615783691
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/61a54b5a0d8d8e87cd07fd8f7894f786.asc": {
+        "pred": 2.9989147186279297,
+        "target": 2.94993257522583
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3091e4783b14a9e9a89e96d6c9b4a9c9.asc": {
+        "pred": 1.1727030277252197,
+        "target": 1.1749012470245361
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2c6d308651eb978fb31587bdc9e3183b.asc": {
+        "pred": 2.396095037460327,
+        "target": 2.2871975898742676
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1d364372fbddbcfadd6c3f5169e811ee.asc": {
+        "pred": 1.2493352890014648,
+        "target": 1.2681028842926025
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/92550c476e52a2069e4d431e11dc7f0c.asc": {
+        "pred": 1.228168249130249,
+        "target": 1.2613675594329834
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2646616bdd947f14b1c339d830b24a8d.asc": {
+        "pred": 1.4867836236953735,
+        "target": 1.432448387145996
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f7cfe4f32aabfb44fed87619ac41ca56.asc": {
+        "pred": 1.5646525621414185,
+        "target": 1.5318841934204102
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/731af11eab934a21bf9e59d140c798a7.asc": {
+        "pred": 1.9991681575775146,
+        "target": 1.998485803604126
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0d527f941f3b05dfe6e4e358d8a1bcca.asc": {
+        "pred": 1.1993660926818848,
+        "target": 1.2713429927825928
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/14341f7fc7600eb5d138dd3cd6754613.asc": {
+        "pred": 1.7140991687774658,
+        "target": 1.6845171451568604
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/92f419f3f7a8210b6038d6b5a0979cf3.asc": {
+        "pred": 1.8508317470550537,
+        "target": 1.8435932397842407
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/330698c27a9459ee57b7b3f5d392c673.asc": {
+        "pred": 1.4017622470855713,
+        "target": 1.3172814846038818
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ca405ecc093f31d99be2bbe679afc573.asc": {
+        "pred": 1.1944749355316162,
+        "target": 1.270033836364746
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fa43682e1c8249817e3ddf943cb1c3a1.asc": {
+        "pred": 2.1438276767730713,
+        "target": 2.147887706756592
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/72f097a0a3219ccd0b69dad4428172af.asc": {
+        "pred": 1.3191916942596436,
+        "target": 1.2259604930877686
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/562c39f4392dcba0192a9d048b76264f.asc": {
+        "pred": 2.186624526977539,
+        "target": 2.1484014987945557
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4ed94c939ce0107841791f45bdd3d64b.asc": {
+        "pred": 2.2516019344329834,
+        "target": 2.2877869606018066
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ac1b746c9417dbbd7d151f551d2b01f1.asc": {
+        "pred": 2.231386184692383,
+        "target": 2.174179792404175
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/efdc17569bfeeab4981ff4c27beff732.asc": {
+        "pred": 1.7241811752319336,
+        "target": 1.6477481126785278
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e5595015600d9e704b574c6552fe20db.asc": {
+        "pred": 1.643632173538208,
+        "target": 1.5713493824005127
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ba17568de17204884d83e3b42e2e85c7.asc": {
+        "pred": 1.2711255550384521,
+        "target": 1.301426887512207
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6c4c8ce889a7e6e540fdc27b3298b8dc.asc": {
+        "pred": 1.6818008422851562,
+        "target": 1.6077001094818115
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0bafd45cfe6f58f321ee6c7534ca2c93.asc": {
+        "pred": 1.629399061203003,
+        "target": 1.6483972072601318
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7832c15f677689e93e9e0f5c4f88bd71.asc": {
+        "pred": 1.7155166864395142,
+        "target": 1.7398273944854736
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9f81f7d4f7f4cfd063ea82e08f494b69.asc": {
+        "pred": 1.7765791416168213,
+        "target": 1.7337632179260254
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/10facbf5e3f7a0ad0b08288297b20082.asc": {
+        "pred": 2.518638849258423,
+        "target": 2.5619120597839355
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/087d7697cbc12ca8fdc3ae742ec446ca.asc": {
+        "pred": 1.1357555389404297,
+        "target": 1.135072946548462
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b99b9d24df44cdd6281ca06c7dfe0568.asc": {
+        "pred": 1.3728258609771729,
+        "target": 1.3175384998321533
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3245e6cd3c77bb81b929c43f60ff5013.asc": {
+        "pred": 1.184329628944397,
+        "target": 1.1645692586898804
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/291b523dcccd8fc4353f7d6e2c355ae6.asc": {
+        "pred": 2.606462001800537,
+        "target": 2.5024337768554688
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/79f3cd6051d99e77098d77a087956754.asc": {
+        "pred": 1.2755146026611328,
+        "target": 1.2507691383361816
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/49f873270260b07369d22af2a2153478.asc": {
+        "pred": 1.7354090213775635,
+        "target": 1.6792287826538086
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/30dedf686825dbdf0fea670892e0feab.asc": {
+        "pred": 1.4089510440826416,
+        "target": 1.384216547012329
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6983b3993f7e57dfc006106f349e4c1f.asc": {
+        "pred": 1.4348030090332031,
+        "target": 1.3349862098693848
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2c5d87328ffc734300acf9bc90479742.asc": {
+        "pred": 1.7047202587127686,
+        "target": 1.6878207921981812
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c64dd80536bc5587ef555de899c63634.asc": {
+        "pred": 1.3996644020080566,
+        "target": 1.426612138748169
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f152c6f57f2d0db3eb84b81c3ef06154.asc": {
+        "pred": 1.6435649394989014,
+        "target": 1.617854356765747
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c5067c1ceecf019118ac0f4d0fe0a371.asc": {
+        "pred": 1.9209457635879517,
+        "target": 1.8597748279571533
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c67486d3fd48db04b5ec0fe56622162b.asc": {
+        "pred": 2.5687496662139893,
+        "target": 2.5987560749053955
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0d6b4a1d3e52dcdf0cf173a894d0d7e6.asc": {
+        "pred": 2.410675525665283,
+        "target": 2.409799098968506
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7544d77b8de95402c41193c1d8baecba.asc": {
+        "pred": 1.473717451095581,
+        "target": 1.4038751125335693
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9e94787b001fbfba372b3f2d2ae0f389.asc": {
+        "pred": 2.1344645023345947,
+        "target": 2.0753276348114014
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1eb91db5e9003a03e70ed7ae5e5cac78.asc": {
+        "pred": 1.522895336151123,
+        "target": 1.4885194301605225
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a2f2025da14397bb53a27863c0ae63d7.asc": {
+        "pred": 1.756950855255127,
+        "target": 1.6379352807998657
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/75301f6b7c6728e63cdeedc8abf36ae1.asc": {
+        "pred": 1.6556142568588257,
+        "target": 1.554897665977478
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/748bd2928a7e0848c781f6c6ce5346d8.asc": {
+        "pred": 1.277164340019226,
+        "target": 1.3080025911331177
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5021c161c97d917bc4f32fae9f264965.asc": {
+        "pred": 1.241784930229187,
+        "target": 1.2303098440170288
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3460bed109d7109cdba6929830043aca.asc": {
+        "pred": 1.482320785522461,
+        "target": 1.4743289947509766
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/137501f385ff8382680c2277e4eea59c.asc": {
+        "pred": 1.3026469945907593,
+        "target": 1.3072460889816284
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d11f02e928ccaa6d53c66fb001e0251c.asc": {
+        "pred": 1.3890782594680786,
+        "target": 1.3105614185333252
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f2af895a58fdf96d335e72edcba4593b.asc": {
+        "pred": 2.209383487701416,
+        "target": 2.1983044147491455
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ac3358f122be5c9b228b458cd2d4ce87.asc": {
+        "pred": 2.772265911102295,
+        "target": 2.810546636581421
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2d4f364343eec7d390eb99e372486ded.asc": {
+        "pred": 1.1674847602844238,
+        "target": 1.1713013648986816
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/00c3c854e8528e17cce4bdc866ded2f4.asc": {
+        "pred": 2.870234966278076,
+        "target": 2.8172683715820312
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a2d3d4a68710c977abbb2586fa02c011.asc": {
+        "pred": 1.3900517225265503,
+        "target": 1.3136407136917114
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c2bcf276c90ee145ba0e1772922585fa.asc": {
+        "pred": 1.3312504291534424,
+        "target": 1.3240060806274414
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/43d12a2aaa12187e694a22d559bddd30.asc": {
+        "pred": 1.4266774654388428,
+        "target": 1.4626803398132324
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/46b43b53bc4a1fc450d9bd054d3e2480.asc": {
+        "pred": 1.3296581506729126,
+        "target": 1.351646900177002
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9c8729be8ea589a3ed53b6ed2ffef46d.asc": {
+        "pred": 1.1647305488586426,
+        "target": 1.1724543571472168
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/912bde82dd4846cbe9495f80fa9da6f7.asc": {
+        "pred": 1.3711119890213013,
+        "target": 1.3378727436065674
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ac228c1c87f1898051dff9c578c0fd49.asc": {
+        "pred": 1.231156349182129,
+        "target": 1.2348436117172241
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1688b72cb4c7d3cb4ba0f93543862507.asc": {
+        "pred": 1.9860692024230957,
+        "target": 1.9588432312011719
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b651ad187b20d2e7f5c785ce24556de0.asc": {
+        "pred": 1.6070204973220825,
+        "target": 1.5816713571548462
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/be9012cba482c646b1a0787698e9c36e.asc": {
+        "pred": 1.3925464153289795,
+        "target": 1.3980039358139038
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a7590b439c21cc6ac01ec8bc0adf1e8d.asc": {
+        "pred": 1.399965524673462,
+        "target": 1.3384288549423218
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7afe8374156104d6e9fc0f351953fb9f.asc": {
+        "pred": 1.4873909950256348,
+        "target": 1.457780361175537
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2663017e11a8f3aafc458587e80dddb2.asc": {
+        "pred": 1.4146301746368408,
+        "target": 1.410705804824829
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/034d1ec83f322461f102d1f3f5b7677d.asc": {
+        "pred": 1.3766752481460571,
+        "target": 1.3607559204101562
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/19a2bc6b3ff094e889bd31ff028aba12.asc": {
+        "pred": 1.2970502376556396,
+        "target": 1.264644980430603
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2473efc98b14b17c9929cae311abab66.asc": {
+        "pred": 1.8886913061141968,
+        "target": 1.8644778728485107
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0ad86304d589e105202b79cacf738a8a.asc": {
+        "pred": 2.3405139446258545,
+        "target": 2.2346699237823486
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1cd3f49e6adc3f4fa12854d30c75aabd.asc": {
+        "pred": 2.1880617141723633,
+        "target": 2.1511106491088867
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d685a3a202e63f32898200455d510818.asc": {
+        "pred": 1.444481372833252,
+        "target": 1.4301769733428955
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/579238f022a1d1eba4e8659e4eb33809.asc": {
+        "pred": 2.0503406524658203,
+        "target": 2.0039889812469482
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f5fdaf5dec5ad3a0b5f8d8248ff89272.asc": {
+        "pred": 1.762737512588501,
+        "target": 1.694156289100647
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cfcd6ec18813affb2146ab3a082382a2.asc": {
+        "pred": 1.694356918334961,
+        "target": 1.6275315284729004
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/70619b3bdd5ab83b12972671ed2de2cb.asc": {
+        "pred": 1.5506837368011475,
+        "target": 1.514830231666565
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b8df895a811c73e8fb6846bab5365dbd.asc": {
+        "pred": 1.4090595245361328,
+        "target": 1.4280403852462769
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a3fccf7b83c5e42b83e3f73dd0449d53.asc": {
+        "pred": 2.9153366088867188,
+        "target": 3.041269302368164
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fdf224dc6541de3c413d811822a7676a.asc": {
+        "pred": 1.422666311264038,
+        "target": 1.3923436403274536
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fa0deef119fba8ce1bcc95960a3a38d3.asc": {
+        "pred": 1.6441636085510254,
+        "target": 1.6225947141647339
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8f7ccf9af3e1a552ea54ae260fd76ddc.asc": {
+        "pred": 1.4919798374176025,
+        "target": 1.3985716104507446
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f79a32d112d76def1b1e00f0bdc662a1.asc": {
+        "pred": 1.826735496520996,
+        "target": 1.8379786014556885
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7914df420bcdb88364059a512a910fca.asc": {
+        "pred": 2.065685272216797,
+        "target": 2.056584119796753
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/17448f36a1a4fbd86e1ea0a46d021b54.asc": {
+        "pred": 2.1141128540039062,
+        "target": 2.0390844345092773
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b429eeb1f503ca279e1711c6912ff665.asc": {
+        "pred": 1.3773002624511719,
+        "target": 1.3132373094558716
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/040dacb9734d99682ff3d3e53cb378dc.asc": {
+        "pred": 2.092545509338379,
+        "target": 2.1281166076660156
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8ebf388a00b3340ef6ac9a49b95434b5.asc": {
+        "pred": 1.4571716785430908,
+        "target": 1.4542937278747559
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b26b3771ebce86cea684ca6db6fda8b2.asc": {
+        "pred": 1.4294670820236206,
+        "target": 1.3983089923858643
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/505ad56c27db1686981a52d22494bee9.asc": {
+        "pred": 1.3577960729599,
+        "target": 1.3085623979568481
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/73fb3e4e0e8310fd008da45fdb42488d.asc": {
+        "pred": 2.6535143852233887,
+        "target": 2.614384651184082
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2829337eeec79dd1197ae115edf75aa0.asc": {
+        "pred": 2.4378504753112793,
+        "target": 2.4156360626220703
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5f144dd28cbd13e443bbf6a70d5d3173.asc": {
+        "pred": 1.2958941459655762,
+        "target": 1.2998452186584473
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2ee6c860612dfd1363017b7d1b5c3b9f.asc": {
+        "pred": 1.5110218524932861,
+        "target": 1.4258439540863037
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b172ec71be71812e0830c13e05e69ec6.asc": {
+        "pred": 2.556224822998047,
+        "target": 2.63662052154541
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0d7e0c5ff077cabd0ed73790abb9cf91.asc": {
+        "pred": 2.8797287940979004,
+        "target": 2.9632279872894287
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ac24186490a3282d1cd8fc3f0ce96f08.asc": {
+        "pred": 2.3659915924072266,
+        "target": 2.314448356628418
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ad1f5f49b7844bf7210aebf1e5722b33.asc": {
+        "pred": 1.5806949138641357,
+        "target": 1.5916509628295898
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cc66dfd23e105ff961f30f9e4423f204.asc": {
+        "pred": 1.9697465896606445,
+        "target": 1.9652992486953735
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/de6556bd76816391d565c4bfc23c625e.asc": {
+        "pred": 1.4540334939956665,
+        "target": 1.4775257110595703
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ad09b2324d87d5f07ad43ba16b47503c.asc": {
+        "pred": 1.5194082260131836,
+        "target": 1.5462510585784912
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ec03814ca9587dd07039512839c3240e.asc": {
+        "pred": 1.7609385251998901,
+        "target": 1.6843419075012207
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/152c35387bd26c3ee3eb9be8d7bb585b.asc": {
+        "pred": 1.5447720289230347,
+        "target": 1.5403177738189697
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f075ec3a71ad0900a2c8e8965d58445c.asc": {
+        "pred": 2.020082473754883,
+        "target": 2.000337600708008
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e9b55c392bc581bdaffe46d55eb91ad9.asc": {
+        "pred": 2.004568576812744,
+        "target": 1.9703483581542969
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8b9683ee8e41f6dcd4b72c3c897cfab6.asc": {
+        "pred": 1.7186903953552246,
+        "target": 1.617231845855713
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6b1d6ec7467a5bf04d9d9bb489ef9b54.asc": {
+        "pred": 1.4057016372680664,
+        "target": 1.3851840496063232
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/003e2fafb363471cb0fbfbd00e0abbf7.asc": {
+        "pred": 1.2581355571746826,
+        "target": 1.2036184072494507
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bae9b0c078ba2e07b30a131bfd2c71a2.asc": {
+        "pred": 1.8887377977371216,
+        "target": 1.8442589044570923
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f2ecee53d0ff835412c88b41fe777e52.asc": {
+        "pred": 1.27949857711792,
+        "target": 1.255226492881775
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bb0670ebd9963fcfef59efb6ba7ebebe.asc": {
+        "pred": 1.478267788887024,
+        "target": 1.3910441398620605
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b18b04dc5565709e3353ac60d5c895ce.asc": {
+        "pred": 1.576785683631897,
+        "target": 1.5787808895111084
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1ad115bcf49ee21f73fe3e4d0c6d4e1c.asc": {
+        "pred": 1.3465003967285156,
+        "target": 1.2917639017105103
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4b2d15161d1f7e2ad7413e6da7bde3c4.asc": {
+        "pred": 1.5804197788238525,
+        "target": 1.5662420988082886
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d41a6cdaa2f990e69bd6631c79a95377.asc": {
+        "pred": 1.7211601734161377,
+        "target": 1.718374252319336
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fef91111a9ae8489f956f8385714fa41.asc": {
+        "pred": 1.9501981735229492,
+        "target": 1.9254207611083984
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9492927c4534a8733e89984cfd8ea824.asc": {
+        "pred": 1.245344638824463,
+        "target": 1.2075080871582031
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b1cc5ff3077e7a1b1463fe1327cb7787.asc": {
+        "pred": 1.358444333076477,
+        "target": 1.360090732574463
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d4c1aaf9cf3061ed9dd6157fb2d99267.asc": {
+        "pred": 3.1116280555725098,
+        "target": 3.3644793033599854
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c30f9d8a8237b0a3ae817c3ab34de0d7.asc": {
+        "pred": 2.3246209621429443,
+        "target": 2.2661170959472656
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a94dc2b23b46451095f27ab4ce4bf67f.asc": {
+        "pred": 1.5918171405792236,
+        "target": 1.6141037940979004
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d56c0f110cb78f48190f267099c44746.asc": {
+        "pred": 1.7020379304885864,
+        "target": 1.6250025033950806
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/47ee17145da45bfbe4fd1b3c16e74a4f.asc": {
+        "pred": 2.7637200355529785,
+        "target": 2.884246349334717
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d490808ec0d7cc3fd24c8a6e1209f69d.asc": {
+        "pred": 1.4729946851730347,
+        "target": 1.434928059577942
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/dc7b97dbc0d7dac33e1edf6c3481e486.asc": {
+        "pred": 2.1467013359069824,
+        "target": 2.1573479175567627
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/093d347fcbfbae78fe78347105e3a816.asc": {
+        "pred": 1.3436275720596313,
+        "target": 1.2949142456054688
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8fe3bde58e230c28f7c833e265a82a11.asc": {
+        "pred": 1.3551783561706543,
+        "target": 1.3104007244110107
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/aeff38a477bdd59f14ff17d4e2d5321a.asc": {
+        "pred": 1.7772998809814453,
+        "target": 1.8003838062286377
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d780177b6f4813e7d2b8346a5e39c44c.asc": {
+        "pred": 1.8000218868255615,
+        "target": 1.7901480197906494
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/430540fe922fdc01a44d45aed7cb1b37.asc": {
+        "pred": 1.3048794269561768,
+        "target": 1.311477780342102
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4bf22c55506eebec5965c6a400157764.asc": {
+        "pred": 1.94063401222229,
+        "target": 1.9179701805114746
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8bee9a06d7e84940e1ad633e381c0f58.asc": {
+        "pred": 1.2954789400100708,
+        "target": 1.2683842182159424
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/80a089c8cb46740a62897a55f57a8590.asc": {
+        "pred": 1.3807024955749512,
+        "target": 1.2970365285873413
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fea03ee96f23235695efcb27eab642e0.asc": {
+        "pred": 1.2850207090377808,
+        "target": 1.2565081119537354
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e90959e4f2a4e7b08dbd48cd475270e1.asc": {
+        "pred": 2.687976121902466,
+        "target": 2.6672325134277344
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/83f7706ef6ee174b336866e42a2d4df0.asc": {
+        "pred": 1.3769335746765137,
+        "target": 1.3896400928497314
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4e618302423ee55e5b7088df264a6fd7.asc": {
+        "pred": 2.5189263820648193,
+        "target": 2.438659429550171
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c3f490e79b34a15da404f66d34c7a0d6.asc": {
+        "pred": 1.1528433561325073,
+        "target": 1.1532970666885376
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/dc573eaeab953bb2e4ef5d0a447cb3a6.asc": {
+        "pred": 2.337711811065674,
+        "target": 2.335206985473633
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e6c728510333b529596facb175fdb318.asc": {
+        "pred": 1.5809977054595947,
+        "target": 1.5545324087142944
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/544f7d0efa8eb86f8d9ac317ba677ead.asc": {
+        "pred": 1.5521522760391235,
+        "target": 1.4692115783691406
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/aa7b4877258d5f4f58ee81b00bf80cec.asc": {
+        "pred": 2.134591579437256,
+        "target": 2.0624842643737793
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f6b1a222b571b19582a9a218f615ad51.asc": {
+        "pred": 1.4620494842529297,
+        "target": 1.470963954925537
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3f2f94666f0bba3d90ef09ac6e412958.asc": {
+        "pred": 2.2468061447143555,
+        "target": 2.2768924236297607
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ecf7dd2cd33fa1d1b1f2c9d4b3bd462e.asc": {
+        "pred": 2.103952646255493,
+        "target": 2.0836215019226074
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9cf3be2235df2532fa672446002f3dab.asc": {
+        "pred": 1.8044159412384033,
+        "target": 1.8822879791259766
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/993d2bc19cd23b730cb404ef67cb538d.asc": {
+        "pred": 1.4635379314422607,
+        "target": 1.4503401517868042
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6b2c28614c9e5820f2a596974d3f90b3.asc": {
+        "pred": 1.4702653884887695,
+        "target": 1.4825384616851807
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4a9e39bf030f39da3ad75c2ae77bce2c.asc": {
+        "pred": 1.424757480621338,
+        "target": 1.379612922668457
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/edbe1cd2d7732247f7ac1461295e2f29.asc": {
+        "pred": 1.3259021043777466,
+        "target": 1.3250311613082886
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bb0c6d1ee119f7ca6b9f6168251b66ee.asc": {
+        "pred": 1.4303593635559082,
+        "target": 1.3985810279846191
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/63c0a18984b2d2c3fa2a39d966cf0225.asc": {
+        "pred": 1.615722894668579,
+        "target": 1.7252564430236816
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/60c2e5f1ce5cff20d32e7d9bc7b59dc8.asc": {
+        "pred": 1.6120188236236572,
+        "target": 1.5741536617279053
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/21aa93170f53abd526ceb308a3be1cdf.asc": {
+        "pred": 1.521005392074585,
+        "target": 1.4537696838378906
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c6cf8b410c0c7889521fa09e90e49f31.asc": {
+        "pred": 2.279381275177002,
+        "target": 2.216372489929199
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ca22f6671773cb0268745baa1beb4924.asc": {
+        "pred": 1.5224285125732422,
+        "target": 1.4426484107971191
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/261d885a6ce12b673ff8b5f7e4c93439.asc": {
+        "pred": 1.407198190689087,
+        "target": 1.341802716255188
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/99c10397e9e6290f33123fa2f2e7be0d.asc": {
+        "pred": 1.2899363040924072,
+        "target": 1.2717341184616089
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b97dc5aa0be8d20c1f47019d3310f845.asc": {
+        "pred": 2.6411337852478027,
+        "target": 2.6948719024658203
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/007f209b79665ff5bb6f3100d780dbb1.asc": {
+        "pred": 2.0394201278686523,
+        "target": 2.01381778717041
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0f1c7f2ccea9e5f565a112d42a5645da.asc": {
+        "pred": 1.1836163997650146,
+        "target": 1.1957783699035645
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f0d933d423d2d74fbed21b4b1ba19324.asc": {
+        "pred": 2.895423412322998,
+        "target": 2.7899506092071533
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fa51b5aaa61bc618b53eb571193fd9e8.asc": {
+        "pred": 1.7750828266143799,
+        "target": 1.7391176223754883
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c110a799a40f2bcbe80ac2d1905bddcf.asc": {
+        "pred": 1.4727404117584229,
+        "target": 1.4392495155334473
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6f29c8a7d65d4256fbd3910e71b2981a.asc": {
+        "pred": 1.6715565919876099,
+        "target": 1.6649179458618164
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cac52c1cd928f0a4e2dbf56b90cc491b.asc": {
+        "pred": 1.1163890361785889,
+        "target": 1.1269006729125977
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c01928e7d25ac85bf76b3abf30c7af94.asc": {
+        "pred": 1.6948308944702148,
+        "target": 1.3828219175338745
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a712ef85e241f57e9166371085a823d6.asc": {
+        "pred": 2.156916618347168,
+        "target": 2.118631601333618
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/463a1b66339179ce7c49cbff0b591c6b.asc": {
+        "pred": 1.315425992012024,
+        "target": 1.3077712059020996
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/14505767ccf0e9c489bda013a3647339.asc": {
+        "pred": 2.0384140014648438,
+        "target": 2.001988410949707
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/406410d59f85a1b954d4ca3e4c407bc9.asc": {
+        "pred": 2.1150963306427,
+        "target": 2.0598320960998535
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d8c0237dce69ecf1de4c226549382281.asc": {
+        "pred": 1.8096513748168945,
+        "target": 1.8229477405548096
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6cdf0f27fb9e27c0ed48639961bd412d.asc": {
+        "pred": 1.8436179161071777,
+        "target": 1.7912862300872803
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9d00ab249d48f8d6c371e53a049193a1.asc": {
+        "pred": 1.219352126121521,
+        "target": 1.2685306072235107
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bb356b3f1714e8a909598b8c147c23ed.asc": {
+        "pred": 1.3112074136734009,
+        "target": 1.288053035736084
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/59ea215acbfca1ded439e73a5ab42eb5.asc": {
+        "pred": 1.3333653211593628,
+        "target": 1.3209322690963745
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/54d163592841f40387a5154095211820.asc": {
+        "pred": 1.6862900257110596,
+        "target": 1.6241064071655273
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3ae12cca88f8291077a3884da1d0f441.asc": {
+        "pred": 1.5250022411346436,
+        "target": 1.4970117807388306
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6573758f28505b15d83d3201b2a701e2.asc": {
+        "pred": 2.169003963470459,
+        "target": 2.1090025901794434
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3981e35299ec9fa01058ab612173989b.asc": {
+        "pred": 1.5229945182800293,
+        "target": 1.5051286220550537
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/aba82042939ca4cdf15faf04b311b925.asc": {
+        "pred": 1.3285531997680664,
+        "target": 1.3406568765640259
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ad3103e5dfd537d5d31eeaa7a48dd7e3.asc": {
+        "pred": 1.84475576877594,
+        "target": 1.820344090461731
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2374bb0fb84a9f1eb120653cc56146ab.asc": {
+        "pred": 2.5175528526306152,
+        "target": 2.4304494857788086
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/62907cd3267b2f7a56b01177168d7dd4.asc": {
+        "pred": 1.8550424575805664,
+        "target": 1.8869529962539673
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1320b069f87f3309210d2b3d69cddbdd.asc": {
+        "pred": 1.4320003986358643,
+        "target": 1.3503435850143433
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/11ef6771763b84ab6c0c73dbb9b0bc2a.asc": {
+        "pred": 1.5003859996795654,
+        "target": 1.4934089183807373
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/71a8642fe38a6db2e92a6025d95f616e.asc": {
+        "pred": 2.2927985191345215,
+        "target": 2.2308788299560547
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/15550cae74f6afe7383c642691a36a84.asc": {
+        "pred": 1.3384404182434082,
+        "target": 1.328228235244751
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ada89d55228ccb30f85661b21e1a5354.asc": {
+        "pred": 1.3996334075927734,
+        "target": 1.3843607902526855
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/714c8b5eedaf34034726d68cd570e224.asc": {
+        "pred": 2.623652458190918,
+        "target": 2.539186954498291
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ccd68e807887497b04b31e95594e543b.asc": {
+        "pred": 2.4323039054870605,
+        "target": 2.4444453716278076
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7e0a9137f5b2ed4dfa06b4a1d052824f.asc": {
+        "pred": 1.34035325050354,
+        "target": 1.2882907390594482
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/def6153ba184d8e9f9899cd574512ac9.asc": {
+        "pred": 1.7706732749938965,
+        "target": 1.7837426662445068
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3be9f26ad13742c7ecaa8bfdf93ff4a1.asc": {
+        "pred": 1.4479947090148926,
+        "target": 1.4335782527923584
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0faf2a5eb5cf08604df7c956824e65ee.asc": {
+        "pred": 1.5743556022644043,
+        "target": 1.643981695175171
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d6d6557db4d73f0d1435d97974c40af4.asc": {
+        "pred": 1.408647894859314,
+        "target": 1.2608013153076172
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2f206b8554647e57d59ec8f8c5278510.asc": {
+        "pred": 1.7224918603897095,
+        "target": 1.6713712215423584
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5ca65baafdf26fd41258cb33010f958c.asc": {
+        "pred": 2.3007078170776367,
+        "target": 2.244621992111206
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5de5ecfc9067452172bf6943385648f8.asc": {
+        "pred": 1.7782492637634277,
+        "target": 1.771273136138916
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ffcb73fd78abd9766f7d12fd16b398c5.asc": {
+        "pred": 1.557205080986023,
+        "target": 1.5410635471343994
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8709d9f608e083664c286cd524af6314.asc": {
+        "pred": 3.095017910003662,
+        "target": 3.2943859100341797
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/24f8d077d4df4bc085a5c4302088a9c8.asc": {
+        "pred": 1.350332260131836,
+        "target": 1.2849093675613403
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b7440c0a54fb7dbfb41b667531407bec.asc": {
+        "pred": 1.5101362466812134,
+        "target": 1.479384422302246
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/207810226c1b4f9a67ebb2309e76e8ca.asc": {
+        "pred": 2.9382195472717285,
+        "target": 2.9298596382141113
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/841ec054d709b5887a3ac29ae09df569.asc": {
+        "pred": 2.374032735824585,
+        "target": 2.27182674407959
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5c4f39fd9d507021e0701170f53ec9f8.asc": {
+        "pred": 1.5990257263183594,
+        "target": 1.6016297340393066
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/431b5388301c9b796d32935eea0ebdff.asc": {
+        "pred": 3.200613021850586,
+        "target": 3.3165948390960693
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ab4bac8d54d53d39aa9361158689f083.asc": {
+        "pred": 1.3137582540512085,
+        "target": 1.332554817199707
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9d186adffe30f5f2ce4087f68a6a8db3.asc": {
+        "pred": 1.3721768856048584,
+        "target": 1.3886213302612305
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3d0774f6e81a32424fb799bbb9a6d5d6.asc": {
+        "pred": 1.7299795150756836,
+        "target": 1.7107288837432861
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c81d6a98725cb99312a44d4a515ab8ac.asc": {
+        "pred": 1.264420509338379,
+        "target": 1.2329680919647217
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b8c340f20c0fe737079bf9e8d120572b.asc": {
+        "pred": 1.6300328969955444,
+        "target": 1.6057014465332031
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6200329f6aeaa491236cfb37714a7510.asc": {
+        "pred": 1.3366771936416626,
+        "target": 1.3613061904907227
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f77f28dbb2c1be88ca2c84aa32a1823c.asc": {
+        "pred": 1.5061761140823364,
+        "target": 1.494338870048523
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/670f4fd034e7a4bb3a9fbd986398607e.asc": {
+        "pred": 2.561105489730835,
+        "target": 2.5397164821624756
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5def3a30033fd5658f970c8cb5f92f86.asc": {
+        "pred": 2.143401622772217,
+        "target": 2.1804933547973633
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/00fffb67f4632c5ad796c5089a1711f3.asc": {
+        "pred": 1.3290863037109375,
+        "target": 1.3295258283615112
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/13f792bd4d21fc4e71c4a2bc80154d1a.asc": {
+        "pred": 1.348658800125122,
+        "target": 1.308173418045044
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8d2f2633fbd034f79a5b0a947472d5aa.asc": {
+        "pred": 1.9136109352111816,
+        "target": 1.950744390487671
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5138421e569369f6ac3a53195aadffbc.asc": {
+        "pred": 1.283546805381775,
+        "target": 1.2555104494094849
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/03f378434b27865d9d0244bfd709836d.asc": {
+        "pred": 1.5082597732543945,
+        "target": 1.4032204151153564
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/92a9cd93f99e744adc589fa4e934cd73.asc": {
+        "pred": 1.3656061887741089,
+        "target": 1.295078992843628
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/81316d5c6d746c602c448d23ce0ffc10.asc": {
+        "pred": 1.3792498111724854,
+        "target": 1.3996303081512451
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d0f1288dcb67c46d23051dea3d655b82.asc": {
+        "pred": 1.1706721782684326,
+        "target": 1.1818219423294067
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2b91b7cd158a96a5fe79f3a9e46bacf7.asc": {
+        "pred": 1.6924940347671509,
+        "target": 1.6351017951965332
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1e3cc2945fc9645d0de6c9874362275c.asc": {
+        "pred": 1.9850738048553467,
+        "target": 2.0422191619873047
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d92fda7a22daef5744e1da8a3dd26b45.asc": {
+        "pred": 2.2293789386749268,
+        "target": 2.2411186695098877
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8d93998060ae7570bc595d74a971e827.asc": {
+        "pred": 1.8311419486999512,
+        "target": 1.8068935871124268
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/65bced6e314bfc27bf2e85130971d40f.asc": {
+        "pred": 1.6092731952667236,
+        "target": 1.6381261348724365
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/74fc6a5903f9a5cd3836f0297e6c5fd3.asc": {
+        "pred": 2.09511137008667,
+        "target": 2.0283241271972656
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/70e41143ac6eba9da53beb215f4946ba.asc": {
+        "pred": 1.629014492034912,
+        "target": 1.5718849897384644
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/8fd3efc570dcb7a078337f9e37cc93e2.asc": {
+        "pred": 1.2788220643997192,
+        "target": 1.252351999282837
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0accfacad28b0d8b7998dd0272103917.asc": {
+        "pred": 1.8074743747711182,
+        "target": 1.8486378192901611
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d04a02ccc43ce09027b73952e14eb4d9.asc": {
+        "pred": 2.9651410579681396,
+        "target": 2.912886142730713
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/6926ad0ac133b218097fcae1c373719d.asc": {
+        "pred": 1.4678459167480469,
+        "target": 1.4683136940002441
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bc41d9ed590fdb03ba919f6b3734f9fd.asc": {
+        "pred": 1.5668543577194214,
+        "target": 1.4747862815856934
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a508597eec2c02ee38707e0909a5aac1.asc": {
+        "pred": 1.4616966247558594,
+        "target": 1.41126549243927
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/36902e0c799433667e638258c818e2c9.asc": {
+        "pred": 1.5864183902740479,
+        "target": 1.5663145780563354
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/0c7e732bb9eacb6f9c7c34c35b07a64e.asc": {
+        "pred": 1.4570496082305908,
+        "target": 1.5036094188690186
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/63caa9d8b6bcb835d05ee145a12559f6.asc": {
+        "pred": 1.7581920623779297,
+        "target": 1.7860145568847656
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9b29d712babb19683868c05973c541b2.asc": {
+        "pred": 1.5688514709472656,
+        "target": 1.505784273147583
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/10b28d8c52d81ac93a19f771ea24a449.asc": {
+        "pred": 2.138110637664795,
+        "target": 2.0991337299346924
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3a85f69c7a5e2616b6a1b05a33d1ad93.asc": {
+        "pred": 1.5184721946716309,
+        "target": 1.5116839408874512
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a7c6a9ea3e73285c6d0ec816f4abdb0f.asc": {
+        "pred": 1.8844096660614014,
+        "target": 1.8773186206817627
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f3d592aa292cf87f9cc0b62a1ed4cf92.asc": {
+        "pred": 1.4326997995376587,
+        "target": 1.4233753681182861
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/30180b639f1d5df18541cb3dd7cc55f4.asc": {
+        "pred": 1.335392951965332,
+        "target": 1.3320714235305786
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/be43f6d70be89704463c3af0e84231bd.asc": {
+        "pred": 1.3594361543655396,
+        "target": 1.301216959953308
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f6c03b9ac81d66ac4c72d24492943082.asc": {
+        "pred": 1.4168672561645508,
+        "target": 1.4215588569641113
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/45c514270261af8d615d699c4662d988.asc": {
+        "pred": 2.9440178871154785,
+        "target": 3.12109637260437
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ef2829be5a262243cf75766880e7667b.asc": {
+        "pred": 1.9121277332305908,
+        "target": 1.8990964889526367
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c09654f1b8d2672bba4f7b1ac7d09edc.asc": {
+        "pred": 1.3764153718948364,
+        "target": 1.3596278429031372
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cc983242ecffd7e1b9ad5c2eb2aab0f9.asc": {
+        "pred": 2.2065343856811523,
+        "target": 2.1553008556365967
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/3bccfea8ce48cf9de6ea1f673af34751.asc": {
+        "pred": 1.9055745601654053,
+        "target": 1.8808557987213135
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/300f1155095896c0c0c35298ef6a7124.asc": {
+        "pred": 1.404918909072876,
+        "target": 1.2974293231964111
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9732a112577fd8c8c3d8372b5cac4920.asc": {
+        "pred": 2.4579429626464844,
+        "target": 2.4602484703063965
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f4a6f7e7d738aa54452690e374704d96.asc": {
+        "pred": 3.0546956062316895,
+        "target": 3.1874465942382812
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/62a2aa239fcae3dc67984b95cd90eaee.asc": {
+        "pred": 1.6361939907073975,
+        "target": 1.5498639345169067
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d7e68816709c5ee3aabeeb90bc6eb5ca.asc": {
+        "pred": 2.066810131072998,
+        "target": 2.0479660034179688
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5eb60e890d761aedf9ae5b8c3a275ef7.asc": {
+        "pred": 1.9099775552749634,
+        "target": 1.8753025531768799
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2fe9ca492a73422b10f5c47c3623f1d1.asc": {
+        "pred": 2.000129222869873,
+        "target": 1.9725161790847778
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/a499321198a69fd44a561bd21ce6448d.asc": {
+        "pred": 1.8763949871063232,
+        "target": 1.8492352962493896
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/c51312e20284418fc624e6d3697716c8.asc": {
+        "pred": 1.2431983947753906,
+        "target": 1.219860315322876
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/d8af0f1d59fbade48154560130be6293.asc": {
+        "pred": 1.8012092113494873,
+        "target": 1.773106336593628
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e31129d74310b46fd3e5a00744da03b6.asc": {
+        "pred": 1.5258355140686035,
+        "target": 1.5521788597106934
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/e6b7cdadad37532a2300bf371fa716a3.asc": {
+        "pred": 1.9056503772735596,
+        "target": 1.8844976425170898
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/13871007afb4315b816330cbf943f675.asc": {
+        "pred": 1.3720908164978027,
+        "target": 1.3226295709609985
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/167e205ec14a1f0df1dcea3b7ca0b145.asc": {
+        "pred": 1.4279072284698486,
+        "target": 1.4184271097183228
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ae57f6043cd2f08301dca592a00bd210.asc": {
+        "pred": 1.3945460319519043,
+        "target": 1.386831283569336
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fe6557c8dbd9a3e99cad91135208584d.asc": {
+        "pred": 1.3687512874603271,
+        "target": 1.3597668409347534
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/417967584e445898b385a1df7e6e8c18.asc": {
+        "pred": 2.4622416496276855,
+        "target": 2.380584239959717
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ce06f5cc4a3122a1f1b58a4939838379.asc": {
+        "pred": 1.9323234558105469,
+        "target": 1.9349839687347412
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/aeb00a90c58889ebbf3ebcdd8298936a.asc": {
+        "pred": 1.8603543043136597,
+        "target": 1.8452847003936768
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/de531e5dca23ad472449377d80e5a940.asc": {
+        "pred": 1.8997290134429932,
+        "target": 1.8663265705108643
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1bbfdd5fc79dfc445e5ef74aaaa3cb30.asc": {
+        "pred": 1.4679542779922485,
+        "target": 1.4594464302062988
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7b3095ae56bd47df3421af59fedd4869.asc": {
+        "pred": 1.4292513132095337,
+        "target": 1.3949902057647705
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/4c0b712d2fa1cbb7b6deb926b8538b1e.asc": {
+        "pred": 2.2477548122406006,
+        "target": 2.2387137413024902
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/60a4cadcf1195c284e4e06e1b8d9cc2d.asc": {
+        "pred": 2.4690451622009277,
+        "target": 2.421246290206909
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/fecec9620fefda30c6a1f62151662e92.asc": {
+        "pred": 1.1922664642333984,
+        "target": 1.200697422027588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bcc5f8d8d8bc7f897bc8c1d6dc8e8112.asc": {
+        "pred": 1.7440106868743896,
+        "target": 1.7374658584594727
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2468a7d9b58f92185de17ccc9a9db3ec.asc": {
+        "pred": 1.709449052810669,
+        "target": 1.7066553831100464
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9afb43faac62e81d80bb24a5cceb36c9.asc": {
+        "pred": 2.1284728050231934,
+        "target": 2.1681344509124756
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9fd0128f98e1cc18f9acf13d004df75f.asc": {
+        "pred": 1.4240204095840454,
+        "target": 1.3988443613052368
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b27f72b98744b47917f611c18d67cc38.asc": {
+        "pred": 1.640812873840332,
+        "target": 1.5600216388702393
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/83bb7e22f90ddb06aa2bd2a18c8a9bd7.asc": {
+        "pred": 1.3187551498413086,
+        "target": 1.2523205280303955
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/161d661653b1ee9bddc7c7e9dec37edb.asc": {
+        "pred": 1.6175570487976074,
+        "target": 1.5335521697998047
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/1fa0a161a44cca3ff77e4cd998c6a677.asc": {
+        "pred": 1.7644505500793457,
+        "target": 1.797619342803955
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cc544d70466c94f68f38a80924cae3fd.asc": {
+        "pred": 1.477776050567627,
+        "target": 1.419260859489441
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/171d44786d86e083906a2bf35f3e584c.asc": {
+        "pred": 1.7071259021759033,
+        "target": 1.6842916011810303
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b6b0748754a5827ed64cd602a427a792.asc": {
+        "pred": 1.3798344135284424,
+        "target": 1.353883981704712
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/7a97d9eadfa042225b3be302780d299d.asc": {
+        "pred": 1.503812551498413,
+        "target": 1.48026442527771
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2b7acfc42346683fd5e78fe7da4db032.asc": {
+        "pred": 1.5440773963928223,
+        "target": 1.4261584281921387
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f59ba911f2ca4ab40d341ac5942dc723.asc": {
+        "pred": 2.255337715148926,
+        "target": 2.1913774013519287
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/ecf129b816db58f4e531b7130c43ec28.asc": {
+        "pred": 1.729744553565979,
+        "target": 1.7343552112579346
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/5aa672f03d3446553907f8a21806c7b9.asc": {
+        "pred": 1.7681775093078613,
+        "target": 1.7485032081604004
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/f50435db1273b26ae0e5f17509197cfd.asc": {
+        "pred": 1.3592473268508911,
+        "target": 1.3444033861160278
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9d80ba7108c651429c340da95a409937.asc": {
+        "pred": 1.3578828573226929,
+        "target": 1.347425937652588
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/9ca99bc94cbe2df977515b29c0f9ee04.asc": {
+        "pred": 2.660634994506836,
+        "target": 2.560135841369629
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/b9e8daaf69ab9478fedd02640ccb0ef6.asc": {
+        "pred": 2.1718857288360596,
+        "target": 2.1305904388427734
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/cdca988a5da2ff7b7c386bd53c3cc004.asc": {
+        "pred": 1.399763584136963,
+        "target": 1.3816128969192505
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/bd1d47fefbbe8ad4f9e5c4a2c11a8fef.asc": {
+        "pred": 1.614915132522583,
+        "target": 1.6472152471542358
+    },
+    "data/artificial_point_clouds_in_cm/param_field_0/0.025_mm/2e497bda588778532424420d751906d2.asc": {
+        "pred": 1.4401463270187378,
+        "target": 1.429799199104309
+    }
+}

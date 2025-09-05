@@ -1,0 +1,166 @@
+{
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-1/S355-1_-5.asc": {
+        "pred": 2.1274912357330322,
+        "target": 2.295952081680298
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-1/S355-1_2.asc": {
+        "pred": 2.2078804969787598,
+        "target": 2.1036651134490967
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-1/S355-1_6.asc": {
+        "pred": 2.0661306381225586,
+        "target": 2.2969539165496826
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_-1.asc": {
+        "pred": 1.5492384433746338,
+        "target": 1.533305048942566
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_-11.asc": {
+        "pred": 1.7099368572235107,
+        "target": 1.5424549579620361
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_-12.asc": {
+        "pred": 1.5872541666030884,
+        "target": 1.5539100170135498
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_-3.asc": {
+        "pred": 1.59101140499115,
+        "target": 1.6053440570831299
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_-6.asc": {
+        "pred": 1.515428066253662,
+        "target": 1.5298889875411987
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-2/S355-2_12.asc": {
+        "pred": 1.5665044784545898,
+        "target": 1.5985690355300903
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_-1.asc": {
+        "pred": 1.874631643295288,
+        "target": 1.839629054069519
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_-5.asc": {
+        "pred": 1.9182984828948975,
+        "target": 2.0847280025482178
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_-8.asc": {
+        "pred": 1.9433362483978271,
+        "target": 2.483349084854126
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_0.asc": {
+        "pred": 1.9779136180877686,
+        "target": 1.9712419509887695
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_13.asc": {
+        "pred": 2.1138243675231934,
+        "target": 1.8980109691619873
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_2.asc": {
+        "pred": 2.034614324569702,
+        "target": 1.630769968032837
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_4.asc": {
+        "pred": 2.03364634513855,
+        "target": 1.891260027885437
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-3/S355-3_5.asc": {
+        "pred": 1.9140055179595947,
+        "target": 1.5753120183944702
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-4/S355-4_-1.asc": {
+        "pred": 1.8666552305221558,
+        "target": 1.8391979932785034
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-4/S355-4_-10.asc": {
+        "pred": 1.9423840045928955,
+        "target": 1.708225965499878
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-4/S355-4_-8.asc": {
+        "pred": 1.9169000387191772,
+        "target": 1.6985419988632202
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-4/S355-4_10.asc": {
+        "pred": 1.9611040353775024,
+        "target": 2.1499040126800537
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S355-4/S355-4_9.asc": {
+        "pred": 2.1039717197418213,
+        "target": 2.052046060562134
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-1/S960-1_-10.asc": {
+        "pred": 2.141329050064087,
+        "target": 2.218147039413452
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-1/S960-1_-7.asc": {
+        "pred": 2.2283990383148193,
+        "target": 2.373976945877075
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-1/S960-1_5.asc": {
+        "pred": 2.2000772953033447,
+        "target": 2.2483971118927
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-1/S960-1_7.asc": {
+        "pred": 2.119096517562866,
+        "target": 2.018665075302124
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_-11.asc": {
+        "pred": 2.3001441955566406,
+        "target": 2.2173240184783936
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_-12.asc": {
+        "pred": 2.385333776473999,
+        "target": 2.5202488899230957
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_-2.asc": {
+        "pred": 2.262824058532715,
+        "target": 2.1019039154052734
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_14.asc": {
+        "pred": 2.0811855792999268,
+        "target": 2.230752944946289
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_3.asc": {
+        "pred": 2.2606163024902344,
+        "target": 2.338927984237671
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_4.asc": {
+        "pred": 2.2577881813049316,
+        "target": 2.427820920944214
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_7.asc": {
+        "pred": 2.2015368938446045,
+        "target": 2.0847840309143066
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-2/S960-2_8.asc": {
+        "pred": 2.162799835205078,
+        "target": 2.135093927383423
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_-1.asc": {
+        "pred": 1.674330234527588,
+        "target": 1.716323971748352
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_-13.asc": {
+        "pred": 1.7017860412597656,
+        "target": 1.6646699905395508
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_10.asc": {
+        "pred": 1.6501481533050537,
+        "target": 1.6417100429534912
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_12.asc": {
+        "pred": 1.609386682510376,
+        "target": 1.6726130247116089
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_2.asc": {
+        "pred": 1.672032356262207,
+        "target": 1.6833139657974243
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_4.asc": {
+        "pred": 1.7097488641738892,
+        "target": 1.7454179525375366
+    },
+    "data/weld_scans_2d_cuts_rotated_in_cm/S960-3/S960-3_6.asc": {
+        "pred": 1.7068147659301758,
+        "target": 1.704239010810852
+    }
+}

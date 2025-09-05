@@ -1,0 +1,502 @@
+{
+    "7cc073307c61d1f4ee89e9817b799d99": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 135.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "7cc073307c61d1f4ee89e9817b799d99.inp"
+    }, 
+    "c75b3ab6a7e663d219e86267143ac3b2": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 125.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.452651395337991, 
+        "input_file": "c75b3ab6a7e663d219e86267143ac3b2.inp"
+    }, 
+    "6f00ea5adac2b3958529b41f6bff4216": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 145.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.569298546848026, 
+        "input_file": "6f00ea5adac2b3958529b41f6bff4216.inp"
+    }, 
+    "b38d0a08ec036f362470d08e512dcd83": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 155.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.549165807215691, 
+        "input_file": "b38d0a08ec036f362470d08e512dcd83.inp"
+    }, 
+    "4fd0eb2dae2b01c0fc82bc4c5c98f210": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 135.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "4fd0eb2dae2b01c0fc82bc4c5c98f210.inp"
+    }, 
+    "1a8229d9131ce11d843d3cdd70faaed8": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 145.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.668970037464719, 
+        "input_file": "1a8229d9131ce11d843d3cdd70faaed8.inp"
+    }, 
+    "6553d1d217866c9b3ec903cb4a98ad6c": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 135.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "6553d1d217866c9b3ec903cb4a98ad6c.inp"
+    }, 
+    "5d5987d4c21313a6f1505c7be773ce2b": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 145.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.695865480373826, 
+        "input_file": "5d5987d4c21313a6f1505c7be773ce2b.inp"
+    }, 
+    "49fa65f491ed0094139e49904c6cb598": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 145.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.515507661029811, 
+        "input_file": "49fa65f491ed0094139e49904c6cb598.inp"
+    }, 
+    "a7ef497086544a4104382d107db27f44": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 155.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.511052325475253, 
+        "input_file": "a7ef497086544a4104382d107db27f44.inp"
+    }, 
+    "a5989ead89f518cb35b13e5ca21fabc6": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 135.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "a5989ead89f518cb35b13e5ca21fabc6.inp"
+    }, 
+    "1e888ac94849734ec5008f1b6543a627": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 145.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.542403103938921, 
+        "input_file": "1e888ac94849734ec5008f1b6543a627.inp"
+    }, 
+    "4a59491e24a977bc5a437936a1921cc0": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 135.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "4a59491e24a977bc5a437936a1921cc0.inp"
+    }, 
+    "d8e0d9f57cc698c1b2dfd078775fd6fb": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 125.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.794595506795094, 
+        "input_file": "d8e0d9f57cc698c1b2dfd078775fd6fb.inp"
+    }, 
+    "0dba65a76ea1c709add6deb715cb4b73": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 125.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.579218327988902, 
+        "input_file": "0dba65a76ea1c709add6deb715cb4b73.inp"
+    }, 
+    "48d1563557178ae5cc7639453a016694": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 125.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.661380138874511, 
+        "input_file": "48d1563557178ae5cc7639453a016694.inp"
+    }, 
+    "1dbd7ec4de4c2329dacbfe586f480de8": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 125.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.497056517978186, 
+        "input_file": "1dbd7ec4de4c2329dacbfe586f480de8.inp"
+    }, 
+    "a778f213c40ea359ab6a80669e26bfbb": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 135.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "a778f213c40ea359ab6a80669e26bfbb.inp"
+    }, 
+    "bf664632ac873b74418be61cebf804d9": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 145.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.316164680671313, 
+        "input_file": "bf664632ac873b74418be61cebf804d9.inp"
+    }, 
+    "2af66308ed1926a19f26dc6a2129f33a": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 145.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.442731614197107, 
+        "input_file": "2af66308ed1926a19f26dc6a2129f33a.inp"
+    }, 
+    "72a1f90be91b7b7a9d49d9fb39590f2c": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 135.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "72a1f90be91b7b7a9d49d9fb39590f2c.inp"
+    }, 
+    "58fb07a4bb94222fa628f6842d1e8798": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 125.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.281679339171996, 
+        "input_file": "58fb07a4bb94222fa628f6842d1e8798.inp"
+    }, 
+    "6c830fe93e25821b97ebc62b22a6e381": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 135.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "6c830fe93e25821b97ebc62b22a6e381.inp"
+    }, 
+    "cb3f4f8752c91698813d6c0a1c2622b0": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 125.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.623623450629097, 
+        "input_file": "cb3f4f8752c91698813d6c0a1c2622b0.inp"
+    }, 
+    "6a5aad7d5e3fc0791c2f832411bf75fc": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 145.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.415836171288004, 
+        "input_file": "6a5aad7d5e3fc0791c2f832411bf75fc.inp"
+    }, 
+    "df73494a89f81e95eb02acd98c67e640": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 145.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.343060123580418, 
+        "input_file": "df73494a89f81e95eb02acd98c67e640.inp"
+    }, 
+    "07ca1369e72cbc132a5634bbba481818": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 135.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "07ca1369e72cbc132a5634bbba481818.inp"
+    }, 
+    "eebee6c1d56b1f24220dd93f3f131ff3": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 125.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.750190384154899, 
+        "input_file": "eebee6c1d56b1f24220dd93f3f131ff3.inp"
+    }, 
+    "55d7d0a75fb426107a6efb854b68f081": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 125.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.408246272697798, 
+        "input_file": "55d7d0a75fb426107a6efb854b68f081.inp"
+    }, 
+    "53e1005c660b5f6f7ace3b82e928d0c8": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 125.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.326084461812192, 
+        "input_file": "53e1005c660b5f6f7ace3b82e928d0c8.inp"
+    }, 
+    "88fcd669cbb5a1d869d73449d546d149": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 135.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "88fcd669cbb5a1d869d73449d546d149.inp"
+    }, 
+    "8f909ce2ae23b29102607fddca2abdca": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 145.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.72276092328293, 
+        "input_file": "8f909ce2ae23b29102607fddca2abdca.inp"
+    }, 
+    "87bf2eb214f04c7793867f11e7e585d9": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 135.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "87bf2eb214f04c7793867f11e7e585d9.inp"
+    }, 
+    "ce741a9c9d92dcbf0bf7cf8a95162220": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 135.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "ce741a9c9d92dcbf0bf7cf8a95162220.inp"
+    }, 
+    "791bc2983e804dd72dd975892f836e2d": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 145.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.262373794853101, 
+        "input_file": "791bc2983e804dd72dd975892f836e2d.inp"
+    }, 
+    "062c588225599c1e144ef57b69f80bec": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 125.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.370489584452385, 
+        "input_file": "062c588225599c1e144ef57b69f80bec.inp"
+    }, 
+    "9b09e74a92aaa9eb21511f0aae9f351e": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 145.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.59619398975713, 
+        "input_file": "9b09e74a92aaa9eb21511f0aae9f351e.inp"
+    }, 
+    "bfd2c57215777f15dd5c7b5c9e55ed5f": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 145.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.388940728378897, 
+        "input_file": "bfd2c57215777f15dd5c7b5c9e55ed5f.inp"
+    }, 
+    "a63caf425e355df2a996af907d1c4a5c": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 135.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "a63caf425e355df2a996af907d1c4a5c.inp"
+    }, 
+    "5e61cead469bd0e69ae46c717cd3164e": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 125.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.41489470709258, 
+        "input_file": "5e61cead469bd0e69ae46c717cd3164e.inp"
+    }, 
+    "f3ff523d8c9647877927025ee55d3440": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 125.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.668028573269291, 
+        "input_file": "f3ff523d8c9647877927025ee55d3440.inp"
+    }, 
+    "688ea86ed080d2be423b270ec75611c3": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 145.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.469627057106216, 
+        "input_file": "688ea86ed080d2be423b270ec75611c3.inp"
+    }, 
+    "e5bd92bc74dbaea4a974418b95d9e30d": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 135.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "e5bd92bc74dbaea4a974418b95d9e30d.inp"
+    }, 
+    "a8fbeb1a118c471b58d65003db223590": {
+        "data": {
+            "throat": 2.66, 
+            "alpha": 145.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.289269237762205, 
+        "input_file": "a8fbeb1a118c471b58d65003db223590.inp"
+    }, 
+    "5420dd41609d4b6b6fe32f9207f31b7b": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 125.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.534813205348712, 
+        "input_file": "5420dd41609d4b6b6fe32f9207f31b7b.inp"
+    }, 
+    "fb7deba540980147af14537a71ccb2a0": {
+        "data": {
+            "throat": 4.1066666666666665, 
+            "alpha": 125.0, 
+            "radius": 4.0, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.541461640618379, 
+        "input_file": "fb7deba540980147af14537a71ccb2a0.inp"
+    }, 
+    "4298ed1e7446a9ef33a4267a1e7c40e7": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 135.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "4298ed1e7446a9ef33a4267a1e7c40e7.inp"
+    }, 
+    "889d48a811170d84d342dc1ec0a61c74": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 125.0, 
+            "radius": 2.05, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.705785261514706, 
+        "input_file": "889d48a811170d84d342dc1ec0a61c74.inp"
+    }, 
+    "bc5b9220615015c59c80266977fb1ed4": {
+        "data": {
+            "throat": 5.553333333333333, 
+            "alpha": 135.0, 
+            "radius": 3.025, 
+            "thickness": 10
+        }, 
+        "reinforcement": 0.0, 
+        "input_file": "bc5b9220615015c59c80266977fb1ed4.inp"
+    }, 
+    "28ab76f9c9d82a5fff81bd2b4f408f55": {
+        "data": {
+            "throat": 7.0, 
+            "alpha": 145.0, 
+            "radius": 1.075, 
+            "thickness": 10
+        }, 
+        "reinforcement": -0.642074594555613, 
+        "input_file": "28ab76f9c9d82a5fff81bd2b4f408f55.inp"
+    }
+}

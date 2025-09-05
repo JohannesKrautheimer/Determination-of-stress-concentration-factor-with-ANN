@@ -1,0 +1,60 @@
+2023-08-21 21:54:28,450 - Model - INFO - Experiment directory: log\regression\2023-08-21_21-54_a4d9e8d5-e5f9-462e-8b9b-d9f0f7b60a4d
+2023-08-21 21:54:28,450 - Model - INFO - PARAMETER ...
+2023-08-21 21:54:28,453 - Model - INFO - Namespace(add_noise=None, b1=0.9, batch_size=24, cv=None, data_path='data/weld_scans_2d_cuts_rotated_in_cm/', decay_rate=0.0001, epoch=1, gpu='0', learning_rate=0.001, log_dir=None, loss_fn='r2', model='pointnet2_regr_msg', move_points=None, neptune_mode='offline', num_point=256, optimizer='Adam', process_data=False, remove_cluster=None, remove_points=None, rotate_points=None, seed=None, set_path='train_test_sets/weld_scans_2d_cuts/default/', tag='', use_cpu=True, use_normals=False, use_uniform_sample=False)
+2023-08-21 21:54:28,482 - Model - INFO - <module 'pointnet2_regr_msg' from 'C:\\Projekte\\bestimmung-kerbformzahlen-mit-knn\\models\\pointnet2_regr_msg.py'>
+2023-08-21 21:54:28,504 - Model - INFO - No existing model, starting training from scratch...
+2023-08-21 21:54:28,507 - Model - INFO - Start training...
+2023-08-21 21:54:28,507 - Model - INFO - Epoch 1 (1/1):
+2023-08-21 21:54:50,495 - Model - INFO - Train Loss for batch id 0 and epoch 0 is: 45.35392379760742
+2023-08-21 21:54:50,543 - Model - INFO - Train MSE (Mean squared error) for batch id 0 and epoch 0 is: 4.321588039398193
+2023-08-21 21:54:50,550 - Model - INFO - Train MAE (Mean absolute error) for batch id 0 and epoch 0 is: 1.9586437940597534
+2023-08-21 21:54:50,558 - Model - INFO - Train R2 Score for batch id 0 and epoch 0 is: -45.35392379760742
+2023-08-21 21:55:20,410 - Model - INFO - Train Loss for batch id 1 and epoch 0 is: 68.24388122558594
+2023-08-21 21:55:20,449 - Model - INFO - Train MSE (Mean squared error) for batch id 1 and epoch 0 is: 4.522593021392822
+2023-08-21 21:55:20,455 - Model - INFO - Train MAE (Mean absolute error) for batch id 1 and epoch 0 is: 2.0289061069488525
+2023-08-21 21:55:20,461 - Model - INFO - Train R2 Score for batch id 1 and epoch 0 is: -68.24388122558594
+2023-08-21 21:55:47,832 - Model - INFO - Train Loss for batch id 2 and epoch 0 is: 74.73023223876953
+2023-08-21 21:55:47,861 - Model - INFO - Train MSE (Mean squared error) for batch id 2 and epoch 0 is: 4.305801868438721
+2023-08-21 21:55:47,867 - Model - INFO - Train MAE (Mean absolute error) for batch id 2 and epoch 0 is: 1.9390314817428589
+2023-08-21 21:55:47,872 - Model - INFO - Train R2 Score for batch id 2 and epoch 0 is: -74.73023223876953
+2023-08-21 21:56:15,866 - Model - INFO - Train Loss for batch id 3 and epoch 0 is: 69.27763366699219
+2023-08-21 21:56:15,872 - Model - INFO - Train MSE (Mean squared error) for batch id 3 and epoch 0 is: 5.38501501083374
+2023-08-21 21:56:15,875 - Model - INFO - Train MAE (Mean absolute error) for batch id 3 and epoch 0 is: 2.254490613937378
+2023-08-21 21:56:15,878 - Model - INFO - Train R2 Score for batch id 3 and epoch 0 is: -69.27763366699219
+2023-08-21 21:56:43,110 - Model - INFO - Train Loss for batch id 4 and epoch 0 is: 49.27275848388672
+2023-08-21 21:56:43,113 - Model - INFO - Train MSE (Mean squared error) for batch id 4 and epoch 0 is: 5.606632232666016
+2023-08-21 21:56:43,115 - Model - INFO - Train MAE (Mean absolute error) for batch id 4 and epoch 0 is: 2.2012271881103516
+2023-08-21 21:56:43,118 - Model - INFO - Train R2 Score for batch id 4 and epoch 0 is: -49.27275848388672
+2023-08-21 21:57:08,889 - Model - INFO - Train Loss for batch id 5 and epoch 0 is: 53.080116271972656
+2023-08-21 21:57:08,891 - Model - INFO - Train MSE (Mean squared error) for batch id 5 and epoch 0 is: 4.289958953857422
+2023-08-21 21:57:08,894 - Model - INFO - Train MAE (Mean absolute error) for batch id 5 and epoch 0 is: 2.008089303970337
+2023-08-21 21:57:08,896 - Model - INFO - Train R2 Score for batch id 5 and epoch 0 is: -53.080116271972656
+2023-08-21 21:57:26,025 - Model - INFO - Train instance Loss for epoch 0: 55.559959411621094
+2023-08-21 21:57:26,033 - Model - INFO - Train instance MSE for epoch 0: 4.738597869873047
+2023-08-21 21:57:26,035 - Model - INFO - Train instance MAE for epoch 0: 2.0650646686553955
+2023-08-21 21:57:26,037 - Model - INFO - Train instance R2 Score for epoch 0: -55.559959411621094
+2023-08-21 21:57:26,044 - Model - INFO - Train instance mean prediction for epoch 0: -0.10040991008281708
+2023-08-21 21:57:26,046 - Model - INFO - Train instance variance prediction for epoch 0: 0.3940486013889313
+2023-08-21 21:57:26,048 - Model - INFO - Train instance mean target for epoch 0: 1.9640905857086182
+2023-08-21 21:57:26,050 - Model - INFO - Train instance variance target for epoch 0: 0.08377969264984131
+2023-08-21 21:57:40,658 - Model - INFO - Test Loss for batch id 0 and epoch 0 is: 34.146202087402344
+2023-08-21 21:57:40,662 - Model - INFO - Test MSE (Mean squared error) for batch id 0 and epoch 0 is: 3.083390474319458
+2023-08-21 21:57:40,665 - Model - INFO - Test MAE (Mean absolute error) for batch id 0 and epoch 0 is: 1.7307955026626587
+2023-08-21 21:57:40,667 - Model - INFO - Test R2 Score for batch id 0 and epoch 0 is: -34.146202087402344
+2023-08-21 21:57:47,117 - Model - INFO - Test Loss for batch id 1 and epoch 0 is: 40.00770950317383
+2023-08-21 21:57:47,121 - Model - INFO - Test MSE (Mean squared error) for batch id 1 and epoch 0 is: 3.4895007610321045
+2023-08-21 21:57:47,126 - Model - INFO - Test MAE (Mean absolute error) for batch id 1 and epoch 0 is: 1.8451029062271118
+2023-08-21 21:57:47,132 - Model - INFO - Test R2 Score for batch id 1 and epoch 0 is: -40.00770950317383
+2023-08-21 21:57:47,610 - Model - INFO - Test instance Loss for epoch 0: 35.210201263427734
+2023-08-21 21:57:47,615 - Model - INFO - Test instance MSE for epoch 0: 3.2517778873443604
+2023-08-21 21:57:47,618 - Model - INFO - Test instance MAE for epoch 0: 1.7781912088394165
+2023-08-21 21:57:47,620 - Model - INFO - Test instance R2 Score for epoch 0: -35.210201263427734
+2023-08-21 21:57:47,624 - Model - INFO - Test instance mean prediction for epoch 0: 0.16392076015472412
+2023-08-21 21:57:47,627 - Model - INFO - Test instance variance prediction for epoch 0: 4.232210137899983e-09
+2023-08-21 21:57:47,629 - Model - INFO - Test instance mean target for epoch 0: 1.942111849784851
+2023-08-21 21:57:47,631 - Model - INFO - Test instance variance target for epoch 0: 0.08980236947536469
+2023-08-21 21:57:47,638 - Model - INFO - Save model...
+2023-08-21 21:57:47,643 - Model - INFO - New best epoch: 1 with loss 35.210201263427734
+2023-08-21 21:57:47,645 - Model - INFO - Saving at log\regression\2023-08-21_21-54_a4d9e8d5-e5f9-462e-8b9b-d9f0f7b60a4d\checkpoints/best_model.pth
+2023-08-21 21:57:47,752 - Model - INFO - Best Test Instance Loss (r2) so far: 35.210201263427734
+2023-08-21 21:57:47,753 - Model - INFO - End of training...

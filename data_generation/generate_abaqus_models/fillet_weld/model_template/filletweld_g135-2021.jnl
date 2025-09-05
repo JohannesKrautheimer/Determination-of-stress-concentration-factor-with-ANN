@@ -1,0 +1,2204 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-25.0, 
+    0.0), point2=(-20.0, 0.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(0.0, 
+    10.0), point2=(0.0, 15.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].FixedConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].FixedConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].constraints[2], 
+    mdb.models['Model-1'].sketches['__profile__'].constraints[3]))
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    0.0, 0.0), point1=(12.5, 10.0))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(0.0, 
+    0.0), point2=(25.0, 25.0))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].FixedConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(5.0, 
+    32.5), point2=(5.0, 25.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(23.75, 
+    5.0), point2=(30.0, 5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(25.0, 
+    -5.0), point2=(30.0, -5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7], textPoint=(
+    25.0285243988037, 2.27517795562744), value=10.0)
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6], textPoint=(
+    2.61758232116699, 31.450252532959), value=5.0)
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(5.0, 28.75), point2=
+    (5.0, 15.2069063257659))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].ParallelConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__profile__'].geometry[6], 
+    entity2=mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(15.2069063257659, 
+    5.0), point2=(44.9392318725586, 5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], point1=(
+    -8.5940637588501, 13.7983827590942))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[11], point1=(
+    2.30329990386963, 16.1782722473145))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12], point1=(
+    -15.949782371521, 1.35499858856201))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14], point1=(
+    -15.949782371521, -2.11283206939697))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15], point1=(
+    -14.5876131057739, -7.14458560943604))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], point1=(
+    -9.47947406768799, -12.8563032150269))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17], point1=(
+    2.98438739776611, -15.5761690139771))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18], point1=(
+    7.41143894195557, -14.012246131897))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19], point1=(
+    15.0395936965942, -2.86079502105713))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20], point1=(
+    16.1293296813965, 2.78292751312256))
+mdb.models['Model-1'].sketches['__profile__'].FilletByRadius(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9], curve2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[13], nearPoint1=(
+    4.8233118057251, 17.8781852722168), nearPoint2=(6.66224384307861, 
+    15.0903196334839), radius=2.0)
+mdb.models['Model-1'].sketches['__profile__'].FilletByRadius(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21], curve2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10], nearPoint1=(
+    13.8817453384399, 7.61069011688232), nearPoint2=(16.9466285705566, 
+    4.95882129669189), radius=2.0)
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(16.25, 
+    11.25), point2=(18.75, 2.5))
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(6.25, 
+    18.75), point2=(11.25, 16.25))
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[13])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[22])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21])
+mdb.models['Model-1'].sketches['__profile__'].AngularDimension(line1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], line2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7], textPoint=(
+    16.5630073547363, 6.95298671722412), value=135.0)
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].AngularDimension(line1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7], line2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], textPoint=(
+    17.3115825653076, 7.73282718658447), value=115.0)
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(3.75, 12.5))
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(13.1413373947144, 
+    3.83037757873535))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[28], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[28], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-2.5, 
+    16.25), point2=(11.25, 3.75))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[28])
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(2.5, 7.5))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[29], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[29], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[29], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], textPoint=(
+    7.13342380523682, 9.7136812210083), value=7.0)
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[6], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[22], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+#* Nothing to undo.
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(name='__profile__', sheetSize=200.0)
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-15.0, 
+    0.0), point2=(-10.0, 0.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-15.0, 
+    5.0), point2=(-10.0, 5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-15.0, 
+    -5.0), point2=(-10.0, -5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(0.0, 
+    10.0), point2=(0.0, 15.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(5.0, 
+    10.0), point2=(5.0, 15.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(8.75, 
+    7.5), point2=(20.0, 16.25))
+mdb.models['Model-1'].sketches['__profile__'].FixedConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].FixedConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].constraints[2], 
+    mdb.models['Model-1'].sketches['__profile__'].constraints[5]))
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], textPoint=(
+    -34.0433731079102, 2.58547830581665), value=10.0)
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6], textPoint=(
+    2.83666229248047, 28.6267490386963), value=5.0)
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(10.0, 
+    16.25), point2=(17.5, 10.0))
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(2.5, 6.25))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], textPoint=(
+    8.25922775268555, 12.5384855270386), value=7.0)
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(2.5, 13.75))
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(13.75, 3.75))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(13.75, 
+    3.75), point2=(10.5963554382324, 13.6471300125122))
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(
+    3.73805236816406, 14.3293075561523), point2=(13.75, 11.25))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(13.10178565979, 
+    15.9968519210815))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].AngularDimension(line1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9], line2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], textPoint=(
+    21.3519954681396, 10.9689531326294), value=115.0)
+mdb.models['Model-1'].sketches['__profile__'].Arc3Points(point1=(
+    13.9310112962266, 7.07691986928694), point2=(7.19135413854383, 
+    13.8776497200597), point3=(10.9215121269226, 10.9215121269226))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[6], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].Arc3Points(point1=(
+    16.8472805023193, 5.0), point2=(14.3859068986494, 6.10139310196973), 
+    point3=(14.4188814791851, 6.03067888575606))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[7], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].Arc3Points(point1=(5.0, 
+    16.9367866516113), point2=(5.98170100641437, 14.4417202393524), point3=(
+    5.77966375369579, 14.5359317575349))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[10], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[11], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[12], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(
+    13.3176736831665, 4.25279569625854), point2=(15.7677564620972, 
+    6.50159072875977))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(
+    3.22096538543701, 14.0764780044556), point2=(7.03439903259277, 
+    16.818431854248))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[12], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].dragEntity(entity=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2], points=((
+    14.8994949366117, 5.0), (14.8994949366117, 5.0), (15.1910638809204, 5.0), (
+    15.3278160095215, 5.0), (15.5101537704468, 5.0), (15.5152187347412, 5.0)))
+mdb.models['Model-1'].sketches['__profile__'].dragEntity(entity=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2], points=((
+    14.8994949366117, 5.0), (14.8994949366117, 5.0), (15.0, 5.0), (
+    15.2417125701904, 5.0), (15.4189853668213, 5.0), (15.5253486633301, 5.0), (
+    15.6063861846924, 5.0), (16.0115795135498, 5.0), (16.25, 5.0), (16.25, 
+    5.0), (16.25, 5.0), (16.3914489746094, 5.0), (16.4167728424072, 5.0), (
+    16.0318393707275, 5.0), (15.5000228881836, 5.0), (15.272102355957, 5.0), (
+    14.8567790985107, 5.0), (14.8010654449463, 5.0), (15.0, 5.0)))
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].RadialDimension(curve=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12], radius=3.0, 
+    textPoint=(16.0267753601074, 5.9541163444519))
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].redo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].redo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].geometry[13], 
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12]))
+mdb.models['Model-1'].sketches['__profile__'].Arc3Points(point1=(
+    16.5827007293701, 5.0), point2=(14.4337985706516, 5.99868907989003), 
+    point3=(15.7515745162964, 5.2573709487915))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[13], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[14], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[11], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[9])
+mdb.models['Model-1'].sketches['__profile__'].RadialDimension(curve=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], radius=1.0, 
+    textPoint=(17.0106334686279, 6.28908443450928))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[14])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[11], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[6], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].Arc3Points(point1=(5.0, 
+    15.2805109024048), point2=(5.21999698202126, 14.796908659162), point3=(
+    5.05513715744019, 15.0237455368042))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[10])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[5])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(5.0, 
+    15.5365651974191), point2=(5.0, 22.8928050994873))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[18])
+mdb.models['Model-1'].sketches['__profile__'].TangentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__profile__'].geometry[17], 
+    entity2=mdb.models['Model-1'].sketches['__profile__'].geometry[18])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(5.0, 
+    22.8928050994873), point2=(0.0, 22.8928050994873))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[20], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(0.0, 
+    22.8928050994873), point2=(0.0, -15.1978206634521))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[20])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[21], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(0.0, 
+    -15.1978206634521), point2=(5.0, -15.1978206634521))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[22], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(5.0, 
+    -15.1978206634521), point2=(5.0, -8.25382804870605))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[22])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[22])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(5.0, 
+    -8.25382804870605), point2=(11.2665214538574, -5.0))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[24], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(11.2665214538574, 
+    -5.0), point2=(39.9312705993652, -5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(39.9312705993652, 
+    -5.0), point2=(39.9312705993652, 5.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[25])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(39.9312705993652, 
+    5.0), point2=(15.5365651974191, 5.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(3.75, 
+    -7.5), point2=(7.20912456512451, -4.52380752563477))
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(2.5, 
+    -2.5), point2=(17.5, -13.75))
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28])
+mdb.models['Model-1'].sketches['__profile__'].Spot(point=(3.22775840759277, 
+    -4.3007664680481))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[6])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[27], textPoint=(
+    6.04542922973633, -4.63432884216309), value=7.0)
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[24], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[27])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[27])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19], textPoint=(
+    -6.75979232788086, 15.531590461731), value=30.0)
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[5], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], textPoint=(
+    18.2817211151123, -26.1804828643799), value=50.0)
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[6], textPoint=(
+    9.5027494430542, 11.3287506103516), value=1.3466215405466)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[8].setValues(
+    reference=ON)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[3].setValues(value=
+    130)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[3].setValues(value=
+    140)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[3].setValues(value=
+    135)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[3].setValues(value=
+    115)
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].Part(dimensionality=TWO_D_PLANAR, name='Part-1', type=
+    DEFORMABLE_BODY)
+mdb.models['Model-1'].parts['Part-1'].BaseShell(sketch=
+    mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Shell planar-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Shell planar-1'])
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='7', name='a')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='10', name='t', 
+    previousParameter='a')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='115', name=
+    'alpha', previousParameter='t')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='1', name='r', 
+    previousParameter='alpha')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='alpha', name=
+    'dimensions_3', path='dimensions[3]', previousParameter='r')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='r', name=
+    'dimensions_4', path='dimensions[4]', previousParameter='dimensions_3')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='a', name=
+    'dimensions_2', path='dimensions[2]', previousParameter='dimensions_4')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='t', name=
+    'dimensions_0', path='dimensions[0]', previousParameter='dimensions_2')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='t/2', name=
+    'dimensions_1', path='dimensions[1]', previousParameter='dimensions_0')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(name='dimensions_8', path=
+    'dimensions[8]', previousParameter='dimensions_1')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='dimensions_8', 
+    name='h', previousParameter='dimensions_8')
+mdb.models['Model-1'].parts['Part-1'].features['Shell planar-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].ConstrainedSketch(gridSpacing=3.9, name='__profile__', 
+    sheetSize=156.2, transform=
+    mdb.models['Model-1'].parts['Part-1'].MakeSketchTransform(
+    sketchPlane=mdb.models['Model-1'].parts['Part-1'].faces[0], 
+    sketchPlaneSide=SIDE1, sketchOrientation=RIGHT, origin=(16.346273, 
+    0.153032, 0.0)))
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__profile__'])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-11.346273, 
+    15.3835331974191), point2=(-16.3462729999432, 15.3835331974191))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-10.7688912617407, 
+    14.4772254103825), point2=(-16.3462730000001, 6.825))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.7160155896175, 
+    5.42434973825929), point2=(-16.3462730000001, 0.975))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.809707802580851, 
+    4.846968), point2=(-0.809707802580919, 0.0))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.809707802580919, 
+    0.0), point2=(33.6537270000568, 0.0))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[12])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(12.675, 
+    11.7), point2=(39.975, 6.825))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[14], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[13], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    -16.3462729999432, -0.153032), point1=(-7.8, 5.85))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[20], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].EqualDistanceConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[9], midpoint=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[20])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[21], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16])
+mdb.models['Model-1'].sketches['__profile__'].ObliqueDimension(textPoint=(
+    -6.92552715039063, 7.75486499554443), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[21], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[16], point1=(
+    -14.8558497974854, -0.840038950378418))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[21], point1=(
+    -12.3910213062744, 0.622165029113769))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15], point1=(
+    -14.3557391712646, 6.07868034130859))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[21], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[23])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[22], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[22], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].dimensions[0], ))
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[23])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].constraints[84], ))
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].geometry[20], ))
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].geometry[22], 
+    mdb.models['Model-1'].sketches['__profile__'].geometry[23]))
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    -13.65, 2.925), point1=(-7.8, 9.75))
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.7160155896175, 
+    5.42434973825929), point2=(-4.77942232450538, 4.37963971588033))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-10.7688912617407, 
+    14.4772254103825), point2=(-11.6649378715488, 11.6921348424778))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[27], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].ObliqueDimension(textPoint=(
+    -3.55651854777773, 8.54256279496524), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[26])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[24], point1=(
+    -1.06144767498779, -2.09882610552979))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[27], point1=(
+    -1.64415412640381, -7.75007026904297))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[29], point1=(
+    -19.4165826389771, 15.0211146522217))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[31], point1=(
+    -36.1068511555176, -2.51435917132568))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[32], point1=(
+    -13.5367732593994, -19.6280476402588))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[30], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[32], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].HorizontalDimension(textPoint=(
+    -14.1866164753418, 18.5295947242432), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[28], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[32])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[28], point1=(
+    -1.76764922833252, 2.26929170376587))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[33], point1=(
+    -12.1719461033325, 13.8471301246338))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14], point1=(
+    -15.7022109577637, 15.1181338477783))
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[34])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[34])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].geometry[30], ))
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].geometry[34], 
+    mdb.models['Model-1'].sketches['__profile__'].geometry[26], 
+    mdb.models['Model-1'].sketches['__profile__'].geometry[25], 
+    mdb.models['Model-1'].sketches['__profile__'].dimensions[1], 
+    mdb.models['Model-1'].sketches['__profile__'].constraints[138]))
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    -10.725, 6.825), point1=(-9.75, 7.8))
+mdb.models['Model-1'].sketches['__profile__'].ConcentricConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-10.7688912617407, 
+    14.4772254103825), point2=(-18.6787391708234, -2.48549817082339))
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[36])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-18.6787391708234, 
+    -2.48549817082339), point2=(-1.7160155896175, 5.42434973825929))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[36], point1=(
+    -18.3720293591003, -1.73338001483154))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[37], point1=(
+    -18.0730572292786, -2.00890129321289))
+mdb.models['Model-1'].sketches['__profile__'].ObliqueDimension(textPoint=(
+    -9.28787141537476, -1.34305828326416), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[40], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1])
+mdb.models['Model-1'].sketches['__profile__'].undo()
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[40], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[39], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[39])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[38])
+mdb.models['Model-1'].sketches['__profile__'].ObliqueDimension(textPoint=(
+    -14.8270617077332, -1.76989560836029), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[40], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[1])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[35], point1=(
+    -23.3125196049194, 14.1242497611694))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[40], point1=(
+    -15.4248757908325, 14.5658200431519))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[41], point1=(
+    -0.644756848571777, -2.80265205615234))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[43], point1=(
+    -1.30820518231201, -5.9672467064209))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[45], point1=(
+    -35.262403065918, -6.58844154589844))
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[46], point1=(
+    -14.032178456543, -19.5791413139648))
+mdb.models['Model-1'].sketches['__profile__'].ConcentricConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[44], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].ConcentricConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[42], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3])
+mdb.models['Model-1'].sketches['__profile__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[44], point1=(
+    -1.80496173596191, 2.62826425320435))
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[39])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[39], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[47])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[38], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[42])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[38])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-29.25, 
+    8.775), point2=(-25.35, 11.7))
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-30.225, 
+    21.45), point2=(-30.225, 16.5749999999767))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[49])
+mdb.models['Model-1'].sketches['__profile__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__profile__'].constraints[186], ))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[49], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[8])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[49], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[9])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[49], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[48])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[41], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[48])
+mdb.models['Model-1'].sketches['__profile__'].ArcByCenterEnds(center=(
+    -1.05918460583496, 6.49696141964722), direction=COUNTERCLOCKWISE, point1=(
+    -3.23142486309814, 4.4197390723877), point2=(-1.62187343334961, 
+    3.20475990063477))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[53], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[52], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[51], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[40])
+mdb.models['Model-1'].sketches['__profile__'].ArcByCenterEnds(center=(-9.75, 
+    16.575), direction=COUNTERCLOCKWISE, point1=(-13.65, 16.575), point2=(
+    -13.65, 14.625))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[56], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[6])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[55], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[39])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-11.346273, 
+    15.3835331974191), point2=(-16.3462729999432, 15.3835331974191))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[52])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[4], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[52])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[57], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[54], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[52])
+mdb.models['Model-1'].parts['Part-1'].PartitionFaceBySketch(faces=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#1 ]', 
+    ), ), sketch=mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-0.809707802580919, 
+    -0.153032), point2=(-16.3462729999432, -0.153032))
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[63])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[17], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[63])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[59], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[7])
+mdb.models['Model-1'].sketches['__edit__'].EqualDistanceConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[8], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[9], midpoint=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[59])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=1.8)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=0.5)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#a ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#2080 ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-16.3462729999432, 
+    -0.153032), point2=(-5.44432030845201, 10.7489206916071))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[60], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[3])
+mdb.models['Model-1'].sketches['__edit__'].EqualDistanceConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[1], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[3], midpoint=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[60])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#41 ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeByBias(biasMethod=SINGLE, 
+    constraint=FINER, end1Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#18046 ]', ), ), end2Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#204200 ]', ), ), maxSize=0.5, minSize=0.025)
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-16.3462729999432, 
+    -0.153032), point2=(-4.7356969413011, -8.44195087791276))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[61], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[60])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[84], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[60])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-0.809707802580919, 
+    -0.153032), point2=(-0.809707802580919, -5.15303199997189))
+mdb.models['Model-1'].sketches['__edit__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[85])
+mdb.models['Model-1'].sketches['__edit__'].ParallelConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[17], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[85])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[62], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[11])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-1.44677806338834, 
+    -5.153032), point2=(-1.44677806329251, -0.153031999971889))
+mdb.models['Model-1'].sketches['__edit__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[86])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[11], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[86])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[63], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[19])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-11.346273, 
+    -15.0525269366117), point2=(-16.3462729999432, -15.0525269366117))
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[87])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[59], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[87])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[64], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[7])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#1fff ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#ffffffff #3f ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#10000800 ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['Part-1'].seedEdgeByBias(biasMethod=SINGLE, 
+    constraint=FINER, end1Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#c000460 ]', ), ), end2Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#82002000 ]', ), ), maxSize=0.5, minSize=0.025)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(3.02808231616211, 
+    4.846968), point2=(3.02808231616211, -5.15303199997189))
+mdb.models['Model-1'].sketches['__edit__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[95])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[13], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[95])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[65], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[13])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[66], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[11])
+mdb.models['Model-1'].sketches['__edit__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[17], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[95], textPoint=(
+    1.33788341784668, 7.34878856427002), value=5.0)
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-11.346273, 
+    18.9701560187988), point2=(-16.3462729999432, 18.9701560187988))
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[96])
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[5], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[96])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[67], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[5])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[68], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[7])
+mdb.models['Model-1'].sketches['__edit__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[96], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[54], textPoint=(
+    -9.56268077587891, 16.7681220222168), value=2.0)
+mdb.models['Model-1'].sketches['__edit__'].dimensions[4].setValues(value=2)
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#8000000 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#430 ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeByBias(biasMethod=SINGLE, 
+    constraint=FINER, end1Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#26000 #18 ]', ), ), end2Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#100000 #84 ]', ), ), maxSize=0.5, minSize=0.025)
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-0.809707802580878, 
+    3.846968), point2=(33.6537270000568, 3.846968))
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[102])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(addUndoState=False
+    , entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[50], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[102])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[69], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[12])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-12.346273, 
+    15.3835331974191), point2=(-12.346273, 29.8469680000281))
+mdb.models['Model-1'].sketches['__edit__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[103])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(addUndoState=False
+    , entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[51], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[103])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[70], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[6])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-0.809707802580878, 
+    3.846968), point2=(33.6537270000568, 3.846968))
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[102])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(addUndoState=False
+    , entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[50], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[102])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[69], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[12])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-12.346273, 
+    15.3835331974191), point2=(-12.346273, 29.8469680000281))
+mdb.models['Model-1'].sketches['__edit__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__edit__'].geometry[103])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(addUndoState=False
+    , entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[51], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[103])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[70], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[6])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#ffffffff #3fffff ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#4000000 #4000 ]', ), ), minSizeFactor=0.1, size=0.25)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#8080 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#4000000 #4000 ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#8000 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].generateMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#80 ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#80 ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#4000000 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#c200 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeByBias(biasMethod=SINGLE, 
+    constraint=FINER, end1Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#80000000 #2000 ]', ), ), end2Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#40000000 #1000 ]', ), ), maxSize=0.5, minSize=0.025)
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].setMeshControls(elemShape=QUAD, regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#8000 ]', ), ), technique=STRUCTURED)
+mdb.models['Model-1'].parts['Part-1'].generateMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#8000 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#94200 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeByBias(biasMethod=SINGLE, 
+    constraint=FINER, end1Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#0 #1 ]', ), ), end2Edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#0 #800 ]', ), ), maxSize=0.5, minSize=0.025)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask((
+    '[#c200 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#80000000 #1000 ]', ), ), size=0.025)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+del mdb.models['Model-1'].parts['Part-1'].features['Partition face-1']
+mdb.models['Model-1'].ConstrainedSketch(gridSpacing=3.9, name='__profile__', 
+    sheetSize=156.2, transform=
+    mdb.models['Model-1'].parts['Part-1'].MakeSketchTransform(
+    sketchPlane=mdb.models['Model-1'].parts['Part-1'].faces[0], 
+    sketchPlaneSide=SIDE1, sketchOrientation=RIGHT, origin=(16.346273, 
+    0.153032, 0.0)))
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__profile__'])
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    1.95, 6.825), point1=(0.975, 2.925))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[2])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.809707802580841, 
+    5.84696800000002), point2=(-0.809707802580841, -5.15303199997189))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[11])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-0.809707802580841, 
+    5.84696800000002), point2=(-1.7160155896175, 5.42434973825929))
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.7160155896175, 
+    5.42434973825929), point2=(-16.3462730000087, -1.3978513329937))
+mdb.models['Model-1'].sketches['__profile__'].ParallelConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__profile__'].geometry[16], 
+    entity2=mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[7])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].VerticalDimension(textPoint=(
+    0.382484858276367, 3.73856097943115), value=1.0, vertex1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16], vertex2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0])
+mdb.models['Model-1'].parts['Part-1'].PartitionFaceBySketch(faces=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#1 ]', 
+    ), ), sketch=mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#7fffff ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#eb ]', 
+    ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#ff ]', 
+    ), ), minSizeFactor=0.1, size=0.05)
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#ff ]', 
+    ), ), minSizeFactor=0.1, size=0.1)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#3f ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#7fffff ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].Set(name='eval_point', vertices=
+    mdb.models['Model-1'].parts['Part-1'].vertices.getSequenceFromMask((
+    '[#4 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#80 ]', 
+    ), ), name='eval_radius')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#eb ]', 
+    ), ), name='mesh_radius')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask(('[#400 ]', 
+    ), ), name='rp_set')
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(20.475, -14.625), 
+    point2=(9.75, -9.75))
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-16.3462730000001, 
+    5.85), point2=(33.6537269999999, -2.925))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[24], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[7])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[25], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[19])
+mdb.models['Model-1'].sketches['__edit__'].HorizontalConstraint(entity=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[26])
+mdb.models['Model-1'].sketches['__edit__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[13], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[14], symmetryAxis=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[26])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#30001f80 ]', ), ), name='mesh_radius')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#4004 ]', ), ), name='rp_set')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#8010040 ]', ), ), name='xsymm')
+mdb.models['Model-1'].parts['Part-1'].Set(name='pinned', vertices=
+    mdb.models['Model-1'].parts['Part-1'].vertices.getSequenceFromMask((
+    '[#40 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].ReferencePoint(point=
+    mdb.models['Model-1'].parts['Part-1'].vertices[3])
+mdb.models['Model-1'].Material(name='Material-1')
+mdb.models['Model-1'].materials['Material-1'].Elastic(table=((210000.0, 0.3), 
+    ))
+mdb.models['Model-1'].rootAssembly.DatumCsysByDefault(CARTESIAN)
+mdb.models['Model-1'].rootAssembly.Instance(dependent=ON, name='Part-1-1', 
+    part=mdb.models['Model-1'].parts['Part-1'])
+mdb.models['Model-1'].StaticStep(name='Step-1', previous='Initial')
+mdb.models['Model-1'].parts['Part-1'].Set(name='rp', referencePoints=(
+    mdb.models['Model-1'].parts['Part-1'].referencePoints[39], ))
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].Coupling(controlPoint=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].sets['rp'], 
+    couplingType=KINEMATIC, influenceRadius=WHOLE_SURFACE, localCsys=None, 
+    name='Constraint-1', surface=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].sets['rp_set'], 
+    u1=ON, u2=ON, ur3=ON)
+mdb.models['Model-1'].XsymmBC(createStepName='Initial', localCsys=None, name=
+    'xsymm', region=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].sets['xsymm'])
+mdb.models['Model-1'].PinnedBC(createStepName='Initial', localCsys=None, name=
+    'pinned', region=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].sets['pinned'])
+mdb.models['Model-1'].Moment(cm3=-1.0, createStepName='Step-1', 
+    distributionType=UNIFORM, field='', localCsys=None, name='Load-1', region=
+    mdb.models['Model-1'].rootAssembly.instances['Part-1-1'].sets['rp'])
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#3fffffff ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#30001f80 ]', ), ), minSizeFactor=0.1, size=0.05)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=0.05)
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#30001f80 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.meshEditOptions.setValues(enableUndo=True, maxUndoCacheElements=0.5)
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#23809100 ]', ), ), name='mesh_export')
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#dc ]', 
+    ), ))
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['Part-1'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[17], point1=(
+    -6.46485286450195, 3.08446723706055))
+mdb.models['Model-1'].sketches['__edit__'].autoTrimCurve(curve1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[35], point1=(
+    -15.3741603443604, -1.07435744517517))
+mdb.models['Model-1'].sketches['__edit__'].ParallelConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[16], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[34])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[31], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[14])
+mdb.models['Model-1'].parts['Part-1'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['Part-1'].regenerate()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].seedPart(deviationFactor=0.1, 
+    minSizeFactor=0.1, size=0.5)
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#211c014 ]', ), ), name='mesh_export')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#18003f ]', ), ), name='mesh_radius')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#1800000 ]', ), ), name='rp_set')
+mdb.models['Model-1'].parts['Part-1'].Set(edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#40100 ]', ), ), name='xsymm')
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#211c014 ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+mdb.models['Model-1'].parts['Part-1'].deleteMesh(regions=
+    mdb.models['Model-1'].parts['Part-1'].faces.getSequenceFromMask(('[#5b ]', 
+    ), ))
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#211c014 ]', ), ))
+mdb.models['Model-1'].parts['Part-1'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['Part-1'].edges.getSequenceFromMask((
+    '[#18003f ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['Part-1'].deleteMesh()
+mdb.models['Model-1'].parts['Part-1'].generateMesh()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].parts['Part-1'].deleteSeeds(regions=
+    mdb.models['Model-1'].parts['Part-1'].edges)
+mdb.models['Model-1'].parts.changeKey(fromName='Part-1', toName='fillet_weld')
+mdb.models['Model-1'].HomogeneousSolidSection(material='Material-1', name=
+    'Section-1', thickness=None)
+mdb.models['Model-1'].parts['fillet_weld'].Set(faces=
+    mdb.models['Model-1'].parts['fillet_weld'].faces.getSequenceFromMask((
+    '[#7f ]', ), ), name='full_model')
+mdb.models['Model-1'].parts['fillet_weld'].SectionAssignment(offset=0.0, 
+    offsetField='', offsetType=MIDDLE_SURFACE, region=
+    mdb.models['Model-1'].parts['fillet_weld'].sets['full_model'], sectionName=
+    'Section-1', thicknessAssignment=FROM_SECTION)
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.features.changeKey(fromName='Part-1-1', 
+    toName='fillet_weld-1')
+mdb.models['Model-1'].constraints['Constraint-1'].setValues(controlPoint=
+    mdb.models['Model-1'].rootAssembly.instances['fillet_weld-1'].sets['rp'], 
+    surface=
+    mdb.models['Model-1'].rootAssembly.instances['fillet_weld-1'].sets['rp_set'])
+mdb.models['Model-1'].loads['Load-1'].setValues(distributionType=UNIFORM, 
+    field='', region=
+    mdb.models['Model-1'].rootAssembly.instances['fillet_weld-1'].sets['rp'])
+mdb.models['Model-1'].loads.changeKey(fromName='Load-1', toName='moment')
+mdb.models['Model-1'].boundaryConditions['pinned'].setValues(region=
+    mdb.models['Model-1'].rootAssembly.instances['fillet_weld-1'].sets['pinned'])
+mdb.models['Model-1'].boundaryConditions['xsymm'].setValues(region=
+    mdb.models['Model-1'].rootAssembly.instances['fillet_weld-1'].sets['xsymm'])
+mdb.models['Model-1'].parts['fillet_weld'].deleteMesh()
+mdb.models['Model-1'].parts['fillet_weld'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask(mask=(
+    '[#211c014 ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['fillet_weld'].generateMesh()
+mdb.models['Model-1'].parts['fillet_weld'].deleteMesh()
+mdb.models['Model-1'].parts['fillet_weld'].deleteSeeds(
+    mdb.models['Model-1'].parts['fillet_weld'].edges)
+mdb.models['Model-1'].parts['fillet_weld'].seedEdgeBySize(constraint=FINER, 
+    deviationFactor=0.1, edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask(mask=(
+    '[#18003f ]', ), ), minSizeFactor=0.1, size=0.025)
+mdb.models['Model-1'].parts['fillet_weld'].generateMesh()
+mdb.models['Model-1'].parts['fillet_weld'].setElementType(elemTypes=(ElemType(
+    elemCode=CPS8, elemLibrary=STANDARD), ElemType(elemCode=CPS6, 
+    elemLibrary=STANDARD)), regions=(
+    mdb.models['Model-1'].parts['fillet_weld'].faces.getSequenceFromMask((
+    '[#7f ]', ), ), ))
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].parts['fillet_weld'].deleteMesh()
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'])
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+del mdb.models['Model-1'].sketches['__edit__']
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'])
+mdb.models['Model-1'].sketches['__edit__'].parameters['h'].setValues(
+    previousParameter='dimensions_8')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='a', name=
+    'dimensions_5', path='dimensions[5]', previousParameter='dimensions_2')
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__edit__'].geometry[34], 
+    mdb.models['Model-1'].sketches['__edit__'].geometry[16]))
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-1.7160155896175, 
+    5.42434973825929), point2=(-2.62232337666501, 5.00173147649912))
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[2], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[43])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[39], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[14])
+mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#f01202 ]', ), ), name='mesh_export')
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#180387 ]', ), ), name='mesh_radius')
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#820 ]', ), ), name='rp_set')
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#2004000 ]', ), ), name='xsymm')
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[26], textPoint=(
+    -6.33645015454102, 2.01424628979492), value=6.00000000000002)
+mdb.models['Model-1'].sketches['__edit__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[7], textPoint=(
+    -14.436475331543, 8.11884719616699), value=15.5365651974192)
+mdb.models['Model-1'].sketches['__edit__'].RadialDimension(curve=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[14], radius=
+    2.00000000000002, textPoint=(2.18074459338379, 8.1882184196167))
+mdb.models['Model-1'].sketches['__edit__'].dimensions[1].setValues(reference=
+    ON)
+mdb.models['Model-1'].sketches['__edit__'].dimensions[2].setValues(reference=
+    ON)
+mdb.models['Model-1'].sketches['__edit__'].dimensions[3].setValues(reference=
+    ON)
+mdb.models['Model-1'].sketches['__edit__'].Parameter(name='c_x', path=
+    'dimensions[2]')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(name='c_y', path=
+    'dimensions[1]', previousParameter='c_x')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(name='c_r', path=
+    'dimensions[3]', previousParameter='c_y')
+mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+# Save by jun on 2023_06_27-16.26.04; build 2021 2020_03_06-15.50.37 167380
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'])
+mdb.models['Model-1'].sketches['__edit__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__edit__'].geometry[11], ))
+mdb.models['Model-1'].sketches['__edit__'].parameters['alpha'].setValues(
+    expression='155')
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].redo()
+mdb.models['Model-1'].sketches['__edit__'].Arc3Points(point1=(5.09369221296335, 
+    14.6985713375139), point2=(14.6985713375139, 5.09369221296335), point3=(
+    12.2326335906982, 5.63988351821899))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[7])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[29], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[9])
+mdb.models['Model-1'].sketches['__edit__'].TangentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[29], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[10])
+mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+#* FeatureError: Regeneration failed
+mdb.models['Model-1'].parts['fillet_weld'].backup()
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].deleteFeatures(('Partition face-1', 
+    'RP'))
+mdb.models['Model-1'].ConstrainedSketch(gridSpacing=3.9, name='__profile__', 
+    sheetSize=156.2, transform=
+    mdb.models['Model-1'].parts['fillet_weld'].MakeSketchTransform(
+    sketchPlane=mdb.models['Model-1'].parts['fillet_weld'].faces[0], 
+    sketchPlaneSide=SIDE1, sketchOrientation=RIGHT, origin=(16.534663, 
+    -0.137055, 0.0)))
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__profile__'])
+mdb.models['Model-1'].sketches['__profile__'].ConstructionLine(point1=(-6.825, 
+    1.95), point2=(2.92500000002328, 1.95))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].SymmetryConstraint(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[14], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], symmetryAxis=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-16.5346629999556, 
+    0.137055), point2=(33.4653370000444, 0.137055))
+mdb.models['Model-1'].sketches['__profile__'].HorizontalConstraint(
+    addUndoState=False, entity=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[15])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[15], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8])
+mdb.models['Model-1'].sketches['__profile__'].EqualDistanceConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[9], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[10], midpoint=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[15])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[13])
+mdb.models['Model-1'].sketches['__profile__'].EqualDistanceConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[14], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[0], midpoint=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[16])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.41347340074539, 
+    6.13705499999996), point2=(-1.41347340074539, 5.137055))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[16])
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.41347340074539, 
+    5.137055), point2=(-1.41347340074919, 0.137055000028722))
+mdb.models['Model-1'].sketches['__profile__'].VerticalConstraint(addUndoState=
+    False, entity=mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].ParallelConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__profile__'].geometry[16], 
+    entity2=mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[17], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14])
+mdb.models['Model-1'].sketches['__profile__'].CircleByCenterPerimeter(center=(
+    -1.41347340074539, 6.13705499999996), point1=(-1.41347340074636, 3.9))
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[17])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[18], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[2], textPoint=(
+    2.91835518847656, 4.4458232723999), value=1.0)
+mdb.models['Model-1'].sketches['__profile__'].Line(point1=(-1.83609166248608, 
+    5.23074721296335), point2=(-2.25870992423006, 4.32443942590908))
+mdb.models['Model-1'].sketches['__profile__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[19])
+mdb.models['Model-1'].sketches['__profile__'].CoincidentConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[19], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18])
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[8], textPoint=(
+    -10.7729957484131, 10.5360675656128), value=15.1211895992546)
+mdb.models['Model-1'].sketches['__profile__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__profile__'].vertices[3], entity2=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[14], textPoint=(
+    -11.0324790858154, 4.16726263397217), value=5.99999999999996)
+mdb.models['Model-1'].sketches['__profile__'].RadialDimension(curve=
+    mdb.models['Model-1'].sketches['__profile__'].geometry[18], radius=
+    1.99999999999996, textPoint=(2.61632271777344, 9.34515245788574))
+mdb.models['Model-1'].sketches['__profile__'].dimensions[1].setValues(
+    reference=ON)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[2].setValues(
+    reference=ON)
+mdb.models['Model-1'].sketches['__profile__'].dimensions[3].setValues(
+    reference=ON)
+mdb.models['Model-1'].sketches['__profile__'].Parameter(name='c_x', path=
+    'dimensions[1]')
+mdb.models['Model-1'].sketches['__profile__'].Parameter(name='c_y', path=
+    'dimensions[2]', previousParameter='c_x')
+mdb.models['Model-1'].sketches['__profile__'].Parameter(name='c_r', path=
+    'dimensions[3]', previousParameter='c_y')
+mdb.models['Model-1'].parts['fillet_weld'].PartitionFaceBySketch(faces=
+    mdb.models['Model-1'].parts['fillet_weld'].faces.getSequenceFromMask((
+    '[#1 ]', ), ), sketch=mdb.models['Model-1'].sketches['__profile__'])
+del mdb.models['Model-1'].sketches['__profile__']
+mdb.models['Model-1'].parts['fillet_weld'].ReferencePoint(point=
+    mdb.models['Model-1'].parts['fillet_weld'].vertices[7])
+mdb.models['Model-1'].parts['fillet_weld'].Set(faces=
+    mdb.models['Model-1'].parts['fillet_weld'].faces.getSequenceFromMask((
+    '[#3f ]', ), ), name='full_model')
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#e4a4 ]', ), ), name='mesh_export')
+mdb.models['Model-1'].parts['fillet_weld'].Set(name='pinned', vertices=
+    mdb.models['Model-1'].parts['fillet_weld'].vertices.getSequenceFromMask((
+    '[#200 ]', ), ))
+mdb.models['Model-1'].parts['fillet_weld'].Set(name='rp', referencePoints=(
+    mdb.models['Model-1'].parts['fillet_weld'].referencePoints[65], ))
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#800200 ]', ), ), name='rp_set')
+mdb.models['Model-1'].parts['fillet_weld'].Set(edges=
+    mdb.models['Model-1'].parts['fillet_weld'].edges.getSequenceFromMask((
+    '[#60000 ]', ), ), name='xsymm')
+# Save by jun on 2023_06_27-16.31.04; build 2021 2020_03_06-15.50.37 167380
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+# Save by jun on 2023_06_27-16.31.10; build 2021 2020_03_06-15.50.37 167380
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'])
+mdb.models['Model-1'].sketches['__edit__'].delete(objectList=(
+    mdb.models['Model-1'].sketches['__edit__'].geometry[19], ))
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-0.735285413764931, 
+    8.0185599971539), point2=(-1.41347340074539, 6.13705499999996))
+mdb.models['Model-1'].sketches['__edit__'].PerpendicularConstraint(
+    addUndoState=False, entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[18], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[28])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[23], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-1.41347340074539, 
+    6.13705499999996), point2=(-1.83609166248608, 5.23074721296335))
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-1.83609166248608, 
+    5.23074721296335), point2=(-2.25870992422279, 4.32443942593818))
+mdb.models['Model-1'].sketches['__edit__'].ParallelConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].geometry[29], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[30])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[24], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(2.76213379870606, 
+    7.32934912078857), point2=(2.08278199206543, 5.51456316345215))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[3])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[2])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[24], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[23], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].undo()
+mdb.models['Model-1'].sketches['__edit__'].Line(point1=(-2.47680293264342, 
+    4.44314523068125), point2=(-0.748839882081432, 8.0233906768794))
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[23], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(addUndoState=
+    False, entity1=mdb.models['Model-1'].sketches['__edit__'].vertices[24], 
+    entity2=mdb.models['Model-1'].sketches['__edit__'].geometry[18])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[3])
+mdb.models['Model-1'].sketches['__edit__'].CoincidentConstraint(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[2])
+mdb.models['Model-1'].parts['fillet_weld'].features['Partition face-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+# Save by jun on 2023_06_27-16.37.57; build 2021 2020_03_06-15.50.37 167380
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].sketch)
+mdb.models['Model-1'].parts['fillet_weld'].projectReferencesOntoSketch(filter=
+    COPLANAR_EDGES, sketch=mdb.models['Model-1'].sketches['__edit__'], 
+    upToFeature=
+    mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'])
+mdb.models['Model-1'].sketches['__edit__'].DistanceDimension(entity1=
+    mdb.models['Model-1'].sketches['__edit__'].vertices[28], entity2=
+    mdb.models['Model-1'].sketches['__edit__'].geometry[8], textPoint=(
+    10.3143463134766, 8.91160297393799), value=1.27337961546226)
+mdb.models['Model-1'].sketches['__edit__'].dimensions[9].setValues(reference=
+    ON)
+mdb.models['Model-1'].sketches['__edit__'].deleteParameter('h')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(name='dimensions_9', path=
+    'dimensions[9]', previousParameter='dimensions_1')
+mdb.models['Model-1'].sketches['__edit__'].Parameter(expression='dimensions_9', 
+    name='h', previousParameter='dimensions_9')
+mdb.models['Model-1'].sketches['__edit__'].parameters['h'].setValues(
+    expression='-dimensions_9')
+# Save by jun on 2023_06_27-16.42.07; build 2021 2020_03_06-15.50.37 167380
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.models['Model-1'].parts['fillet_weld'].features['Shell planar-1'].setValues(
+    sketch=mdb.models['Model-1'].sketches['__edit__'])
+del mdb.models['Model-1'].sketches['__edit__']
+mdb.models['Model-1'].parts['fillet_weld'].regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+mdb.models['Model-1'].rootAssembly.regenerate()
+# Save by jun on 2023_06_27-16.42.15; build 2021 2020_03_06-15.50.37 167380
