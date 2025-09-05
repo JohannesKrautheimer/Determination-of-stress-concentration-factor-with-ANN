@@ -132,7 +132,7 @@ python test_regression.py --log_dir 2023-08-21_21-58_cc9f1d94-4487-46d1-9453-1e8
 
 ## Trained Models
 
-In the folder [log/regression/best_models](log/regression/best_models), you can find already trained models from the master's thesis. The models were trained on the default train/test set of the corresponding dataset with seed 4567. The best models on the 3 datasets weld_scans, apc_butt_joints, and apc_T_joints have been stored.
+In the folder [log/regression/best_models](log/regression/beste_modelle), you can find already trained models from the master's thesis. The models were trained on the default train/test set of the corresponding dataset with seed 4567. The best models on the 3 datasets weld_scans, apc_butt_joints, and apc_T_joints have been stored.
 
 | Model      | Trained on Dataset             | Folder Name                                                       | R2 Score | Learning Rate | Decay Rate |
 |------------|--------------------------------|-------------------------------------------------------------------|----------|---------------|------------|
